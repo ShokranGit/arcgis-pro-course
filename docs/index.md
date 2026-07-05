@@ -1,106 +1,40 @@
+# Lessons
+
+The lessons introduce the main ArcGIS Pro skills you will use in this course. Move through them in order, especially if you are new to GIS.
+
+## Lesson pathway
+
+| Lesson | Topic | Main skills |
+|---|---|---|
+| 01 | Getting Started with ArcGIS Pro | Projects, maps, panes, saving work |
+| 02 | Data, Layers, and Coordinate Systems | Vector/raster data, projections, geodatabases |
+| 03 | Selection by Attribute | Attribute tables, queries, selected features |
+| 04 | Symbology and Map Design | Classification, color, labels, map readability |
+| 05 | Geoprocessing | Buffer, clip, dissolve, intersect, spatial join |
+| 06 | Raster Analysis | Raster cells, reclassification, suitability thinking |
+
 ---
-title: Home
+
+## Start here
+
+[Lesson 01: Getting Started with ArcGIS Pro](01-getting-started.md){ .md-button .md-button--primary }
+
+[Go to Labs](../labs/index.md){ .md-button }
+
 ---
 
-<div class="hero" markdown>
+## How to use each lesson
 
-<div class="eyebrow">CUNY GIS Course Site</div>
+Each lesson is designed to help you understand both the GIS concept and the ArcGIS Pro workflow.
 
-# ArcGIS Pro Course
+Most lessons include:
 
-A practical learning hub for building GIS skills with ArcGIS Pro. This site organizes tutorials, labs, datasets, troubleshooting notes, and core GIS concepts so students can move from software basics to independent spatial analysis.
+- Learning goals
+- Key terms
+- Step-by-step instructions
+- Practice task
+- Common mistakes
+- Link to a related lab
 
-<div class="button-row" markdown>
-[Start Here](start-here.md){ .primary }
-[Browse Lessons](lessons/index.md){ .secondary }
-[Go to Labs](labs/index.md){ .secondary }
-</div>
-
-</div>
-
-## Course pathway
-
-The course is organized as a sequence of skill-building modules. Each module combines conceptual explanation, software demonstration, guided practice, and a small applied task.
-
-<div class="card-grid" markdown>
-
-<div class="course-card" markdown>
-<span class="tag">Module 01</span>
-
-### Getting Started with ArcGIS Pro
-Projects, maps, panes, ribbons, layers, saving work, and navigating the interface.
-</div>
-
-<div class="course-card" markdown>
-<span class="tag">Module 02</span>
-
-### Data, Layers, and Coordinate Systems
-Vector data, raster data, shapefiles, geodatabases, projections, and spatial reference systems.
-</div>
-
-<div class="course-card" markdown>
-<span class="tag">Module 03</span>
-
-### Selection and Attribute Tables
-Selecting features by attributes and location, reading tables, calculating fields, and exporting selections.
-</div>
-
-<div class="course-card" markdown>
-<span class="tag">Module 04</span>
-
-### Symbology and Map Design
-Classifying data, choosing symbols, designing readable maps, and making spatial patterns visible.
-</div>
-
-<div class="course-card" markdown>
-<span class="tag">Module 05</span>
-
-### Geoprocessing
-Buffer, clip, dissolve, intersect, spatial joins, and building repeatable analysis workflows.
-</div>
-
-<div class="course-card" markdown>
-<span class="tag">Module 06</span>
-
-### Raster Analysis
-Raster layers, cell values, reclassification, suitability analysis, and environmental applications.
-</div>
-
-</div>
-
-## Quick links
-
-<div class="card-grid" markdown>
-
-<div class="course-card" markdown>
-<span class="tag">Setup</span>
-
-### [Start Here](start-here.md)
-Install or access ArcGIS Pro, download course data, and learn how to use this website.
-</div>
-
-<div class="course-card" markdown>
-<span class="tag">Practice</span>
-
-### [Labs](labs/index.md)
-Find lab instructions, deliverables, grading expectations, and submission notes.
-</div>
-
-<div class="course-card" markdown>
-<span class="tag">Files</span>
-
-### [Data](data.md)
-Access datasets used in class, including source notes and data documentation.
-</div>
-
-<div class="course-card" markdown>
-<span class="tag">Help</span>
-
-### [Troubleshooting](troubleshooting.md)
-Common ArcGIS Pro errors, broken paths, projection issues, missing layers, and layout/export fixes.
-</div>
-
-</div>
-
-!!! tip "How to use this site"
-    Treat this as a living course manual. Keep it open during labs, return to troubleshooting when ArcGIS Pro gets dramatic, and use the concept pages when software steps need a bigger GIS explanation.
+!!! tip
+    Keep ArcGIS Pro open while reading the lesson. These pages are meant to be used while you work, not just read before or after.
