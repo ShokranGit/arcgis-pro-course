@@ -2,10 +2,10 @@ site_name: ArcGIS Pro Course
 site_description: A practical learning hub for ArcGIS Pro tutorials, labs, datasets, and GIS concepts.
 site_author: Parisa Setayesh
 # After you publish on GitHub Pages, replace USERNAME and REPOSITORY with your real values.
-site_url: https://USERNAME.github.io/REPOSITORY/
+site_url: https://ShokranGit.github.io/arcgis-pro-course/
 
 repo_name: arcgis-pro-course
-repo_url: https://github.com/USERNAME/REPOSITORY
+repo_url: https://github.com/ShokranGit/arcgis-pro-course
 edit_uri: edit/main/docs/
 
 theme:
@@ -74,7 +74,7 @@ extra:
     institution: CUNY
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/USERNAME/REPOSITORY
+link: https://github.com/ShokranGit/arcgis-pro-course
       name: GitHub repository
 
 copyright: "Course materials for teaching and learning ArcGIS Pro."
