@@ -1,12 +1,11 @@
 site_name: ArcGIS Pro Course
-site_description: A practical learning hub for ArcGIS Pro tutorials, labs, datasets, and GIS concepts.
-site_author: Parisa Setayesh
-# After you publish on GitHub Pages, replace USERNAME and REPOSITORY with your real values.
-site_url: https://ShokranGit.github.io/arcgis-pro-course/
+site_description: "A practical learning hub for ArcGIS Pro tutorials, labs, datasets, and GIS concepts."
+site_author: "Parisa Setayesh"
+site_url: "https://ShokranGit.github.io/arcgis-pro-course/"
 
-repo_name: arcgis-pro-course
-repo_url: https://github.com/ShokranGit/arcgis-pro-course
-edit_uri: edit/main/docs/
+repo_name: "ShokranGit/arcgis-pro-course"
+repo_url: "https://github.com/ShokranGit/arcgis-pro-course"
+edit_uri: "edit/main/docs/"
 
 theme:
   name: material
@@ -70,12 +69,12 @@ extra_css:
 
 extra:
   course:
-    software: ArcGIS Pro
-    institution: CUNY
+    software: "ArcGIS Pro"
+    institution: "CUNY"
   social:
     - icon: fontawesome/brands/github
-link: https://github.com/ShokranGit/arcgis-pro-course
-      name: GitHub repository
+      link: "https://github.com/ShokranGit/arcgis-pro-course"
+      name: "GitHub repository"
 
 copyright: "Course materials for teaching and learning ArcGIS Pro."
 
@@ -83,7 +82,7 @@ nav:
   - Home: index.md
   - Start Here: start-here.md
   - Lessons:
-      - lessons/index.md
+      - Overview: lessons/index.md
       - "01 · Getting Started": lessons/01-getting-started.md
       - "02 · Data, Layers, and Coordinate Systems": lessons/02-data-layers-coordinate-systems.md
       - "03 · Selection by Attribute": lessons/03-selection-by-attribute.md
@@ -91,15 +90,15 @@ nav:
       - "05 · Geoprocessing": lessons/05-geoprocessing.md
       - "06 · Raster Analysis": lessons/06-raster-analysis.md
   - Labs:
-      - labs/index.md
+      - Overview: labs/index.md
       - "Lab 01 · Project Setup and Interface": labs/lab-01-project-setup.md
       - "Lab 02 · Attribute Selection": labs/lab-02-attribute-selection.md
       - "Lab Template": labs/lab-template.md
   - GIS Concepts:
-      - concepts/index.md
-      - concepts/vector-raster.md
-      - concepts/coordinate-systems.md
-      - concepts/attribute-tables.md
+      - Overview: concepts/index.md
+      - "Vector and Raster Data": concepts/vector-raster.md
+      - "Coordinate Systems": concepts/coordinate-systems.md
+      - "Attribute Tables": concepts/attribute-tables.md
   - Data: data.md
   - Troubleshooting: troubleshooting.md
   - Resources: resources.md
