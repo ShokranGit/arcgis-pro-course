@@ -1,39 +1,52 @@
 # Start Here
 
-Begin here before the first lab. This page explains software access, course data, file organization, and how to use the website during class.
+Welcome to the ArcGIS Pro course site. This page explains how to use the site, how to prepare your files, and what you need before starting the lessons and labs.
 
-## Before the first class
+This website is designed as a practical course manual. You can use it during class, while completing labs, and later when you need to remember how a GIS workflow works.
 
-- Confirm that you can open ArcGIS Pro.
-- Create a stable course folder on your computer or cloud drive.
-- Download the course data folder when it becomes available.
-- Keep file paths simple. Avoid moving data after you start a project.
+---
+
+## What you will use this site for
+
+Use this site to find:
+
+- Step-by-step ArcGIS Pro lessons
+- Lab instructions and deliverables
+- Course datasets and file organization notes
+- Short explanations of core GIS concepts
+- Troubleshooting help for common ArcGIS Pro problems
+- Resources for mapping, data, and spatial analysis
+
+!!! tip "Use the search bar"
+    The search bar at the top of the site is your friend. Try searching for terms like **projection**, **attribute table**, **selection**, **raster**, **layout**, or **export**.
+
+---
+
+## Before you begin
+
+Before starting the first lesson or lab, make sure you have:
+
+- Access to **ArcGIS Pro**
+- A place to save your course files
+- The course data folder downloaded or accessible
+- A basic understanding of where your files are stored
+- A habit of saving your work frequently
+
+!!! warning "File paths matter in GIS"
+    ArcGIS Pro projects depend on file locations. If you move or rename folders after creating a project, layers may break. Most mysterious GIS sadness begins with a moved folder.
+
+---
 
 ## Recommended folder structure
 
+Create one main folder for the course. Keep everything inside it.
+
 ```text
 ArcGIS-Pro-Course/
-├── projects/
 ├── data/
+│   ├── original/
+│   └── working/
+├── projects/
 ├── exports/
 ├── screenshots/
 └── submissions/
-```
-
-## How lessons work
-
-Each lesson includes:
-
-- Learning goals
-- Key GIS concepts
-- ArcGIS Pro workflow
-- Practice task
-- Deliverable
-- Troubleshooting notes
-
-## How labs work
-
-Each lab asks you to apply a workflow, produce a map or analysis output, and submit evidence of your process.
-
-!!! warning "Do not move your data folder mid-lab"
-    Many ArcGIS Pro errors are just broken file paths wearing a scary outfit.
