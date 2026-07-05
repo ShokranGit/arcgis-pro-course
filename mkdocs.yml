@@ -1,0 +1,105 @@
+site_name: ArcGIS Pro Course
+site_description: A practical learning hub for ArcGIS Pro tutorials, labs, datasets, and GIS concepts.
+site_author: Parisa Setayesh
+# After you publish on GitHub Pages, replace USERNAME and REPOSITORY with your real values.
+site_url: https://USERNAME.github.io/REPOSITORY/
+
+repo_name: arcgis-pro-course
+repo_url: https://github.com/USERNAME/REPOSITORY
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  logo: assets/images/logo-placeholder.svg
+  favicon: assets/images/logo-placeholder.svg
+  palette:
+    - scheme: default
+      primary: green
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - content.tabs.link
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - def_list
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/css/extra.css
+
+extra:
+  course:
+    software: ArcGIS Pro
+    institution: CUNY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/USERNAME/REPOSITORY
+      name: GitHub repository
+
+copyright: "Course materials for teaching and learning ArcGIS Pro."
+
+nav:
+  - Home: index.md
+  - Start Here: start-here.md
+  - Lessons:
+      - lessons/index.md
+      - "01 · Getting Started": lessons/01-getting-started.md
+      - "02 · Data, Layers, and Coordinate Systems": lessons/02-data-layers-coordinate-systems.md
+      - "03 · Selection by Attribute": lessons/03-selection-by-attribute.md
+      - "04 · Symbology and Map Design": lessons/04-symbology-map-design.md
+      - "05 · Geoprocessing": lessons/05-geoprocessing.md
+      - "06 · Raster Analysis": lessons/06-raster-analysis.md
+  - Labs:
+      - labs/index.md
+      - "Lab 01 · Project Setup and Interface": labs/lab-01-project-setup.md
+      - "Lab 02 · Attribute Selection": labs/lab-02-attribute-selection.md
+      - "Lab Template": labs/lab-template.md
+  - GIS Concepts:
+      - concepts/index.md
+      - concepts/vector-raster.md
+      - concepts/coordinate-systems.md
+      - concepts/attribute-tables.md
+  - Data: data.md
+  - Troubleshooting: troubleshooting.md
+  - Resources: resources.md

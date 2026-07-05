@@ -1,0 +1,114 @@
+:root {
+  --arcgis-green: #1f7a4d;
+  --arcgis-dark: #10251b;
+  --arcgis-blue: #1f5f99;
+  --arcgis-soft: #eef7f1;
+  --arcgis-border: rgba(31, 122, 77, 0.18);
+}
+
+.md-typeset .hero {
+  display: grid;
+  gap: 1.25rem;
+  padding: 3rem 2rem;
+  margin: 1rem 0 2rem;
+  border-radius: 1.5rem;
+  color: white;
+  background: linear-gradient(135deg, var(--arcgis-dark), var(--arcgis-green) 58%, var(--arcgis-blue));
+  box-shadow: 0 1rem 2.5rem rgba(16, 37, 27, 0.15);
+}
+
+.md-typeset .hero h1 {
+  color: white;
+  margin: 0;
+  font-size: clamp(2.2rem, 5vw, 4.4rem);
+  line-height: 1;
+}
+
+.md-typeset .hero p {
+  max-width: 44rem;
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.md-typeset .eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 800;
+  font-size: 0.75rem;
+  opacity: 0.9;
+}
+
+.md-typeset .button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.md-typeset .button-row a {
+  display: inline-block;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.md-typeset .button-row a.primary {
+  color: var(--arcgis-dark);
+  background: white;
+}
+
+.md-typeset .button-row a.secondary {
+  color: white;
+  border: 2px solid rgba(255,255,255,0.75);
+}
+
+.md-typeset .card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.md-typeset .course-card {
+  padding: 1rem;
+  border: 1px solid var(--arcgis-border);
+  border-radius: 1rem;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 0.45rem 1.2rem rgba(16, 37, 27, 0.05);
+}
+
+.md-typeset .course-card h3 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.35rem;
+}
+
+.md-typeset .course-card p {
+  margin-bottom: 0;
+}
+
+.md-typeset .tag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  color: var(--arcgis-green);
+  background: var(--arcgis-soft);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.md-typeset .lesson-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.md-typeset .lesson-meta div {
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  background: var(--arcgis-soft);
+  border: 1px solid var(--arcgis-border);
+}
