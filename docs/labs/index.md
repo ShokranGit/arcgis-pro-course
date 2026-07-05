@@ -1,28 +1,36 @@
 # Labs
 
-Labs are applied exercises where students practice GIS workflows and submit maps, screenshots, short written responses, or data outputs.
+Labs are applied exercises where you practice ArcGIS Pro workflows and submit clear deliverables.
 
-<div class="card-grid" markdown>
+## Lab sequence
 
-<div class="course-card" markdown>
-<span class="tag">Lab 01</span>
+| Lab | Topic | Main output |
+|---|---|---|
+| Lab 01 | Project setup and interface | ArcGIS Pro project + screenshot |
+| Lab 02 | Attribute selection | Selected features + exported map |
+| Lab 03 | Symbology | Thematic map |
+| Lab 04 | Geoprocessing | Analysis output + map |
+| Lab 05 | Raster analysis | Raster workflow + interpretation |
 
-### [Project Setup and Interface](lab-01-project-setup.md)
-Create a project, connect folders, add data, and document the ArcGIS Pro interface.
-</div>
+---
 
-<div class="course-card" markdown>
-<span class="tag">Lab 02</span>
+## How to complete a lab
 
-### [Attribute Selection](lab-02-attribute-selection.md)
-Use attribute tables and SQL-style queries to select and export features.
-</div>
+For each lab:
 
-<div class="course-card" markdown>
-<span class="tag">Template</span>
+1. Read the purpose and required data.
+2. Open or create the ArcGIS Pro project.
+3. Follow the workflow carefully.
+4. Save screenshots or exports as requested.
+5. Check the submission checklist before uploading.
 
-### [Lab Template](lab-template.md)
-Copy this structure when creating future labs.
-</div>
+!!! warning
+    Do not move your data folder after starting a lab. Broken file paths are the villain of GIS.
 
-</div>
+---
+
+## Current labs
+
+[Lab 01: Project Setup and Interface](lab-01-project-setup.md){ .md-button .md-button--primary }
+
+[Lab 02: Attribute Selection](lab-02-attribute-selection.md){ .md-button }
