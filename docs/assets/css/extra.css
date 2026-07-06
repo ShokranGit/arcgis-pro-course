@@ -112,3 +112,44 @@
   background: var(--arcgis-soft);
   border: 1px solid var(--arcgis-border);
 }
+/* Lab module badges */
+
+.module-badge {
+  display: inline-block;
+  padding: 0.28rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.25;
+  white-space: normal;
+}
+
+.module-intro {
+  background: #e6f4ea;
+  color: #17633a;
+  border: 1px solid #b8dfc4;
+}
+
+.module-tabular {
+  background: #e8f1ff;
+  color: #174f90;
+  border: 1px solid #b8d3ff;
+}
+
+.module-spatial {
+  background: #f1e9ff;
+  color: #5b2b91;
+  border: 1px solid #d6c2ff;
+}
+
+.module-geoprocessing {
+  background: #fff2df;
+  color: #8a4b00;
+  border: 1px solid #ffd29a;
+}
+
+.module-ethics {
+  background: #ffe8e8;
+  color: #8a1f1f;
+  border: 1px solid #ffc1c1;
+}
