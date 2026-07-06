@@ -91,9 +91,6 @@ nav:
       - "06 · Raster Analysis": lessons/06-raster-analysis.md
   - Labs:
       - Overview: labs/index.md
-      - "Lab 01 · Project Setup and Interface": labs/lab-01-project-setup.md
-      - "Lab 02 · Attribute Selection": labs/lab-02-attribute-selection.md
-      - "Lab Template": labs/lab-template.md
   - GIS Concepts:
       - Overview: concepts/index.md
       - "Vector and Raster Data": concepts/vector-raster.md
