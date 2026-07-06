@@ -90,10 +90,21 @@ nav:
       - "05 · Geoprocessing": lessons/05-geoprocessing.md
       - "06 · Raster Analysis": lessons/06-raster-analysis.md
   - Labs:
+        - Labs:
       - Overview: labs/index.md
-      - "Lab 01 · Project Setup and Interface": labs/lab-01-project-setup.md
-      - "Lab 02 · Attribute Selection": labs/lab-02-attribute-selection.md
-      - "Lab Template": labs/lab-template.md
+      - "Lab 01 · Course Overview and Software Installation": labs/lab-01-course-overview-software-installation.md
+      - "Lab 02 · GIS History, Applications, and Map Types": labs/lab-02-gis-history-applications-map-types.md
+      - "Lab 03 · ArcGIS Interface and Data Types": labs/lab-03-arcgis-interface-data-types.md
+      - "Lab 04 · File Management and Data Acquisition": labs/lab-04-file-management-data-acquisition.md
+      - "Lab 05 · Adding Data and Geodatabases": labs/lab-05-adding-data-geodatabases.md
+      - "Lab 06 · Coordinate and Projection Systems": labs/lab-06-coordinate-projection-systems.md
+      - "Lab 07 · Attribute Table and Field Management": labs/lab-07-attribute-table-field-management.md
+      - "Lab 08 · Cartography, Classification, and Layout Design": labs/lab-08-cartography-classification-layout.md
+      - "Lab 09 · Data Query and Selection": labs/lab-09-data-query-selection.md
+      - "Lab 10 · Table Join and Spatial Join": labs/lab-10-table-join-spatial-join.md
+      - "Lab 11 · Geoprocessing Tools": labs/lab-11-geoprocessing-tools.md
+      - "Lab 12 · Raster Analysis and Geospatial Programming": labs/lab-12-raster-programming.md
+      - "Lab 13 · Ethics and Future of GIS": labs/lab-13-ethics-future-gis.md
   - GIS Concepts:
       - Overview: concepts/index.md
       - "Vector and Raster Data": concepts/vector-raster.md
