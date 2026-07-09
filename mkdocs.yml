@@ -91,6 +91,7 @@ nav:
       - "06 · Raster Analysis": lessons/06-raster-analysis.md
   - Labs:
       - Overview: labs/index.md
+      - "Table Join Slides": slides/table-join.md
   - GIS Concepts:
       - Overview: concepts/index.md
       - "Vector and Raster Data": concepts/vector-raster.md
