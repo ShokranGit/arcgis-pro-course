@@ -210,17 +210,26 @@
   min-width: 0 !important;
 }
 .schedule-table table th:nth-child(1),
-.schedule-table table td:nth-child(1) { width: 13% !important; }
+.schedule-table table td:nth-child(1) { width: 11% !important; }
 .schedule-table table th:nth-child(2),
-.schedule-table table td:nth-child(2) { width: 12% !important; }
+.schedule-table table td:nth-child(2) { width: 13% !important; }
 .schedule-table table th:nth-child(3),
-.schedule-table table td:nth-child(3) { width: 13% !important; }
+.schedule-table table td:nth-child(3) { width: 24% !important; }
 .schedule-table table th:nth-child(4),
-.schedule-table table td:nth-child(4) { width: 20% !important; }
+.schedule-table table td:nth-child(4) { width: 15% !important; }
 .schedule-table table th:nth-child(5),
-.schedule-table table td:nth-child(5) { width: 11% !important; }
+.schedule-table table td:nth-child(5) { width: 12% !important; }
 .schedule-table table th:nth-child(6),
-.schedule-table table td:nth-child(6) { width: 31% !important; }
+.schedule-table table td:nth-child(6) { width: 25% !important; }
+
+/* Module badge: force it to fill and wrap within its cell instead of overflowing into the next column */
+.module-badge {
+  width: 100% !important;
+  box-sizing: border-box !important;
+  overflow-wrap: break-word !important;
+  display: inline-block !important;
+  text-align: center;
+}
 
 /* Full course topic list table: Module | Topic */
 .topics-table table {
