@@ -210,17 +210,17 @@
   min-width: 0 !important;
 }
 .schedule-table table th:nth-child(1),
-.schedule-table table td:nth-child(1) { width: 9% !important; }
+.schedule-table table td:nth-child(1) { width: 13% !important; }
 .schedule-table table th:nth-child(2),
-.schedule-table table td:nth-child(2) { width: 7% !important; }
+.schedule-table table td:nth-child(2) { width: 12% !important; }
 .schedule-table table th:nth-child(3),
-.schedule-table table td:nth-child(3) { width: 14% !important; }
+.schedule-table table td:nth-child(3) { width: 13% !important; }
 .schedule-table table th:nth-child(4),
-.schedule-table table td:nth-child(4) { width: 24% !important; }
+.schedule-table table td:nth-child(4) { width: 20% !important; }
 .schedule-table table th:nth-child(5),
-.schedule-table table td:nth-child(5) { width: 9% !important; }
+.schedule-table table td:nth-child(5) { width: 8% !important; }
 .schedule-table table th:nth-child(6),
-.schedule-table table td:nth-child(6) { width: 37% !important; }
+.schedule-table table td:nth-child(6) { width: 34% !important; }
 
 /* Full course topic list table: Module | Topic */
 .topics-table table {
@@ -259,6 +259,6 @@
   min-width: 0 !important;
 }
 .grading-table table th:nth-child(odd),
-.grading-table table td:nth-child(odd) { width: 7% !important; }
+.grading-table table td:nth-child(odd) { width: 13% !important; }
 .grading-table table th:nth-child(even),
-.grading-table table td:nth-child(even) { width: 18% !important; }
+.grading-table table td:nth-child(even) { width: 12% !important; }
