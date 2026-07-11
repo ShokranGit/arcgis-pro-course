@@ -6,7 +6,7 @@ title: Course Syllabus (Fall 2026, Lehman College)
 
 **GEP 205/505 · Fall 2026 · Lehman College, CUNY**
 
-[Download Syllabus (.docx)](../../assets/Rahiminezhad_Fall_2026_Syllabus.docx){ .md-button }
+[Download Syllabus (.docx)](../assets/Rahiminezhad_Fall_2026_Syllabus.docx){ .md-button }
 
 ## Course Information
 
