@@ -192,6 +192,7 @@
 
 .md-typeset .md-typeset__table table {
   width: 100% !important;
+  display: table !important;
 }
 
 .md-typeset .md-typeset__table td,
