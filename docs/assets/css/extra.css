@@ -157,27 +157,27 @@
 
 /* Reading source colors */
 
-.src-essentials {
+.md-typeset a.src-essentials {
   color: #0f7d8c;
   font-weight: 600;
 }
 
-.src-cartography {
+.md-typeset a.src-cartography {
   color: #1f7a4d;
   font-weight: 600;
 }
 
-.src-moderngis {
+.md-typeset a.src-moderngis {
   color: #b35c00;
   font-weight: 600;
 }
 
-.src-esri {
+.md-typeset a.src-esri {
   color: #1f5f99;
   font-weight: 600;
 }
 
-.src-workbook {
+.md-typeset a.src-workbook {
   color: #9c1f6b;
   font-weight: 600;
 }
