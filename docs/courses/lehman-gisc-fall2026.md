@@ -8,7 +8,7 @@ title: Principles of GISc (Fall 2026, Lehman College)
 
 This page tracks the course schedule for the Fall 2026 section of *Principles of Geographic Information Systems/Science (GISc)* at Lehman College. Fill in the Date column to match Lehman's official academic calendar for this semester.
 
-[Syllabus](../lehman-syllabus/){ .md-button }
+[Syllabus](lehman-syllabus.md){ .md-button }
 
 ## Course schedule
 
