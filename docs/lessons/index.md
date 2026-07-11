@@ -42,7 +42,5 @@ A date-free, college-agnostic view of every topic in the course. This list isn't
 | <span class="module-badge module-spatial">Spatial Analysis</span> | [Map Algebra](06-raster-analysis.md) |
 | <span class="module-badge module-spatial">Spatial Analysis</span> | [Suitability Modeling](06-raster-analysis.md) |
 | <span class="module-badge module-spatial">Spatial Analysis</span> | Intro to Geospatial Programming |
-| <span class="module-badge module-ethics">Ethics & Future</span> | Map Misuse |
-| <span class="module-badge module-ethics">Ethics & Future</span> | Ethical Issues in GISc |
-| <span class="module-badge module-ethics">Ethics & Future</span> | Future of GIS |
+| <span class="module-badge module-ethics">Future of GISc</span> | Future of GISc |
 
