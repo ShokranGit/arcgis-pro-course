@@ -13,6 +13,7 @@ A date-free, college-agnostic view of every topic in the course. This list isn't
 | <span class="module-badge module-intro">Introduction, Foundations, and Data Management</span> | History of GIS and ArcGIS Ecosystem |
 | <span class="module-badge module-intro">Introduction, Foundations, and Data Management</span> | GIS/GISc Applications |
 | <span class="module-badge module-intro">Introduction, Foundations, and Data Management</span> | Why GIS/GISc Matter |
+| <span class="module-badge module-intro">Introduction, Foundations, and Data Management</span> | The Politics and Ethics of Mapping |
 | <span class="module-badge module-intro">Introduction, Foundations, and Data Management</span> | Map Types and Modern Maps |
 | <span class="module-badge module-intro">Introduction, Foundations, and Data Management</span> | [ArcGIS User Interface](01-getting-started.md) |
 | <span class="module-badge module-intro">Introduction, Foundations, and Data Management</span> | [Data and File Types in the ArcGIS Ecosystem](../concepts/vector-raster.md) |
