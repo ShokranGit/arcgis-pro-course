@@ -153,3 +153,31 @@
   color: #8a1f1f;
   border: 1px solid #ffc1c1;
 }
+
+
+/* Reading source colors */
+
+.src-essentials {
+  color: #0f7d8c;
+  font-weight: 600;
+}
+
+.src-cartography {
+  color: #1f7a4d;
+  font-weight: 600;
+}
+
+.src-moderngis {
+  color: #b35c00;
+  font-weight: 600;
+}
+
+.src-esri {
+  color: #1f5f99;
+  font-weight: 600;
+}
+
+.src-workbook {
+  color: #9c1f6b;
+  font-weight: 600;
+}
