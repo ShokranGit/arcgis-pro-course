@@ -89,6 +89,9 @@ nav:
       - "04 · Symbology and Map Design": lessons/04-symbology-map-design.md
       - "05 · Geoprocessing": lessons/05-geoprocessing.md
       - "06 · Raster Analysis": lessons/06-raster-analysis.md
+  - Courses:
+      - "Principles of GISc — Fall 2026 (Lehman College)": courses/lehman-gisc-fall2026.md
+      - "Intro to GIS — Spring 2027 (Hunter College)": courses/hunter-intro-gis-spring2027.md
   - Labs:
       - Overview: labs/index.md
       - "Table Join Slides": slides/table-join.md
