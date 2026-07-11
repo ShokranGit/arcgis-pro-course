@@ -6,6 +6,8 @@ Lessons are guided tutorials. Each one combines a GIS concept, an ArcGIS Pro wor
 
 A date-free, college-agnostic view of every topic in the course. This list isn't tied to any single semester's calendar, so each section (regardless of institution) can pace the material however it needs. Topics with a linked title lead to their slides or lesson page.
 
+<div class="topics-table" markdown="1">
+
 | Module | Topic |
 |---|---|
 | <span class="module-badge module-intro">Introduction, Foundations, and Data Management</span> | Course Overview and Intro |
@@ -43,4 +45,5 @@ A date-free, college-agnostic view of every topic in the course. This list isn't
 | <span class="module-badge module-spatial">Spatial Analysis</span> | [Suitability Modeling](06-raster-analysis.md) |
 | <span class="module-badge module-spatial">Spatial Analysis</span> | Intro to Geospatial Programming |
 | <span class="module-badge module-ethics">Future of GISc</span> | Future of GISc |
-{: .topics-table}
+
+</div>
