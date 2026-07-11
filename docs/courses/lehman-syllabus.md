@@ -44,6 +44,8 @@ Students successfully completing this course will be able to:
 
 ## Assignments and Grading
 
+<div class="assign-table" markdown="1">
+
 | Assignment | Undergraduate | Graduate |
 |---|---|---|
 | Laboratory Exercises | 300 pts (7 labs, 50 pts each, lowest grade dropped) | 300 pts (7 labs, 50 pts each, lowest grade dropped) |
@@ -57,7 +59,8 @@ Students successfully completing this course will be able to:
 | Final Exam | 200 pts | 200 pts |
 | Attendance and Participation | 50 pts | 50 pts |
 | **Total** | **1000 pts** | **1000 pts** |
-{: .assign-table}
+
+</div>
 
 ## Laboratory Exercises
 
@@ -81,16 +84,21 @@ In project workshop sessions and office hours, each group/student will receive f
 
 ## Grading Scheme
 
+<div class="grading-table" markdown="1">
+
 | Grade | Points | Grade | Points | Grade | Points | Grade | Points |
 |---|---|---|---|---|---|---|---|
 | A | 930 - 1000 | B | 830 - 869 | C | 730 - 769 | D- | 600 - 629 |
 | A- | 900 - 929 | B- | 800 - 829 | C- | 670 - 729 | F | Below 600 |
 | B+ | 870 - 899 | C+ | 770 - 799 | D | 630 - 669 | | |
-{: .grading-table}
+
+</div>
 
 *Graduate grades: A, A-, B+, B, B-, C+, C, and F.*
 
 ## Tentative Class Schedule
+
+<div class="schedule-table" markdown="1">
 
 | Date | Lab | Module | Topics | Slides | Readings/tutorials |
 |---|---|---|---|---|---|
@@ -110,7 +118,8 @@ In project workshop sessions and office hours, each group/student will receive f
 | Nov 25, 2026 | **No Class** | — | — | — | — |
 | Dec 2, 2026 | **Presentations** | — | — | — | — |
 | Dec 16, 2026 | **Final Exam** | — | — | — | — |
-{: .schedule-table}
+
+</div>
 
 ## Guidelines and Rules
 
