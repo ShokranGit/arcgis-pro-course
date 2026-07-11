@@ -218,9 +218,9 @@
 .schedule-table table th:nth-child(4),
 .schedule-table table td:nth-child(4) { width: 20% !important; }
 .schedule-table table th:nth-child(5),
-.schedule-table table td:nth-child(5) { width: 8% !important; }
+.schedule-table table td:nth-child(5) { width: 11% !important; }
 .schedule-table table th:nth-child(6),
-.schedule-table table td:nth-child(6) { width: 34% !important; }
+.schedule-table table td:nth-child(6) { width: 31% !important; }
 
 /* Full course topic list table: Module | Topic */
 .topics-table table {
