@@ -182,17 +182,16 @@
   font-weight: 600;
 }
 
-
 /* Table layout: let content breathe (stretch to full width, proportion columns) */
 
 .md-typeset .md-typeset__table {
-  display: block;
-  width: 100%;
+  display: block !important;
+  width: 100% !important;
   overflow-x: auto;
 }
 
 .md-typeset .md-typeset__table table {
-  width: 100%;
+  width: 100% !important;
 }
 
 .md-typeset .md-typeset__table td,
@@ -202,58 +201,63 @@
 }
 
 /* Course schedule tables: Date | Lab | Module | Topics | Slides | Readings/tutorials */
-.md-typeset .schedule-table table {
-  table-layout: fixed;
+.schedule-table table {
+  table-layout: fixed !important;
 }
-.md-typeset .schedule-table table th:nth-child(1),
-.md-typeset .schedule-table table td:nth-child(1) { width: 9%; }
-.md-typeset .schedule-table table th:nth-child(2),
-.md-typeset .schedule-table table td:nth-child(2) { width: 7%; }
-.md-typeset .schedule-table table th:nth-child(3),
-.md-typeset .schedule-table table td:nth-child(3) { width: 14%; }
-.md-typeset .schedule-table table th:nth-child(4),
-.md-typeset .schedule-table table td:nth-child(4) { width: 24%; }
-.md-typeset .schedule-table table th:nth-child(5),
-.md-typeset .schedule-table table td:nth-child(5) { width: 9%; }
-.md-typeset .schedule-table table th:nth-child(6),
-.md-typeset .schedule-table table td:nth-child(6) { width: 37%; }
+.schedule-table table th,
+.schedule-table table td {
+  min-width: 0 !important;
+}
+.schedule-table table th:nth-child(1),
+.schedule-table table td:nth-child(1) { width: 9% !important; }
+.schedule-table table th:nth-child(2),
+.schedule-table table td:nth-child(2) { width: 7% !important; }
+.schedule-table table th:nth-child(3),
+.schedule-table table td:nth-child(3) { width: 14% !important; }
+.schedule-table table th:nth-child(4),
+.schedule-table table td:nth-child(4) { width: 24% !important; }
+.schedule-table table th:nth-child(5),
+.schedule-table table td:nth-child(5) { width: 9% !important; }
+.schedule-table table th:nth-child(6),
+.schedule-table table td:nth-child(6) { width: 37% !important; }
 
 /* Full course topic list table: Module | Topic */
-.md-typeset .topics-table table {
-  table-layout: fixed;
+.topics-table table {
+  table-layout: fixed !important;
 }
-.md-typeset .topics-table table th:nth-child(1),
-.md-typeset .topics-table table td:nth-child(1) { width: 38%; }
-.md-typeset .topics-table table th:nth-child(2),
-.md-typeset .topics-table table td:nth-child(2) { width: 62%; }
+.topics-table table th,
+.topics-table table td {
+  min-width: 0 !important;
+}
+.topics-table table th:nth-child(1),
+.topics-table table td:nth-child(1) { width: 38% !important; }
+.topics-table table th:nth-child(2),
+.topics-table table td:nth-child(2) { width: 62% !important; }
 
 /* Assignments and Grading table: Assignment | Undergraduate | Graduate */
-.md-typeset .assign-table table {
-  table-layout: fixed;
+.assign-table table {
+  table-layout: fixed !important;
 }
-.md-typeset .assign-table table th:nth-child(1),
-.md-typeset .assign-table table td:nth-child(1) { width: 50%; }
-.md-typeset .assign-table table th:nth-child(2),
-.md-typeset .assign-table table td:nth-child(2) { width: 25%; }
-.md-typeset .assign-table table th:nth-child(3),
-.md-typeset .assign-table table td:nth-child(3) { width: 25%; }
+.assign-table table th,
+.assign-table table td {
+  min-width: 0 !important;
+}
+.assign-table table th:nth-child(1),
+.assign-table table td:nth-child(1) { width: 50% !important; }
+.assign-table table th:nth-child(2),
+.assign-table table td:nth-child(2) { width: 25% !important; }
+.assign-table table th:nth-child(3),
+.assign-table table td:nth-child(3) { width: 25% !important; }
 
 /* Grading Scheme table: 4 pairs of Grade | Points */
-.md-typeset .grading-table table {
-  table-layout: fixed;
+.grading-table table {
+  table-layout: fixed !important;
 }
-.md-typeset .grading-table table th:nth-child(odd),
-.md-typeset .grading-table table td:nth-child(odd) { width: 7%; }
-.md-typeset .grading-table table th:nth-child(even),
-.md-typeset .grading-table table td:nth-child(even) { width: 18%; }
-
-.schedule-table table th,
-.schedule-table table td,
-.topics-table table th,
-.topics-table table td,
-.assign-table table th,
-.assign-table table td,
 .grading-table table th,
 .grading-table table td {
-  min-width: 0;
+  min-width: 0 !important;
 }
+.grading-table table th:nth-child(odd),
+.grading-table table td:nth-child(odd) { width: 7% !important; }
+.grading-table table th:nth-child(even),
+.grading-table table td:nth-child(even) { width: 18% !important; }
