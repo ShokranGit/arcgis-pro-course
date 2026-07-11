@@ -30,5 +30,6 @@ This page tracks the course schedule for the Fall 2026 section of *Principles of
 | Nov 25, 2026 | **No Class** | — | — | — | — |
 | Dec 2, 2026 | **Presentations** | — | — | — | — |
 | Dec 16, 2026 | **Final Exam** | — | — | — | — |
+{: .schedule-table}
 
 [Lehman College Official Academic Calendar (Fall 2026)](https://www.lehman.edu/media/Registrar/documents/UGRD-Academic-Calendar-Fall-2026.pdf)
