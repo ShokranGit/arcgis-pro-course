@@ -246,3 +246,14 @@
 .md-typeset .grading-table table td:nth-child(odd) { width: 7%; }
 .md-typeset .grading-table table th:nth-child(even),
 .md-typeset .grading-table table td:nth-child(even) { width: 18%; }
+
+.schedule-table table th,
+.schedule-table table td,
+.topics-table table th,
+.topics-table table td,
+.assign-table table th,
+.assign-table table td,
+.grading-table table th,
+.grading-table table td {
+  min-width: 0;
+}
