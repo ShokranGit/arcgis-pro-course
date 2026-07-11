@@ -12,6 +12,8 @@ This page tracks the course schedule for the Fall 2026 section of *Principles of
 
 ## Course schedule
 
+<div class="schedule-table" markdown="1">
+
 | Date | Lab | Module | Topics | Slides | Readings/tutorials |
 |---|---|---|---|---|---|
 | Sep 2, 2026 | **Lab 01** | <span class="module-badge module-intro">Introduction, Foundations, and Data Management</span> | Course Overview and Intro, Software Installation | — | [Flexible GIS Workbook: Setup Before You Begin](https://mlpp.pressbooks.pub/flexiblegisworkbookpro/front-matter/setup-before-you-begin/){: .src-workbook}<br>[Esri: Introduction to ArcGIS Pro](https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html){: .src-esri}<br>[Esri Tutorial Path: Try ArcGIS Pro](https://learn.arcgis.com/en/paths/try-arcgis-pro/){: .src-esri} |
@@ -30,6 +32,7 @@ This page tracks the course schedule for the Fall 2026 section of *Principles of
 | Nov 25, 2026 | **No Class** | — | — | — | — |
 | Dec 2, 2026 | **Presentations** | — | — | — | — |
 | Dec 16, 2026 | **Final Exam** | — | — | — | — |
-{: .schedule-table}
+
+</div>
 
 [Lehman College Official Academic Calendar (Fall 2026)](https://www.lehman.edu/media/Registrar/documents/UGRD-Academic-Calendar-Fall-2026.pdf)
