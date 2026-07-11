@@ -181,3 +181,68 @@
   color: #9c1f6b;
   font-weight: 600;
 }
+
+
+/* Table layout: let content breathe (stretch to full width, proportion columns) */
+
+.md-typeset .md-typeset__table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.md-typeset .md-typeset__table table {
+  width: 100%;
+}
+
+.md-typeset .md-typeset__table td,
+.md-typeset .md-typeset__table th {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Course schedule tables: Date | Lab | Module | Topics | Slides | Readings/tutorials */
+.md-typeset table.schedule-table {
+  table-layout: fixed;
+}
+.md-typeset table.schedule-table th:nth-child(1),
+.md-typeset table.schedule-table td:nth-child(1) { width: 9%; }
+.md-typeset table.schedule-table th:nth-child(2),
+.md-typeset table.schedule-table td:nth-child(2) { width: 7%; }
+.md-typeset table.schedule-table th:nth-child(3),
+.md-typeset table.schedule-table td:nth-child(3) { width: 14%; }
+.md-typeset table.schedule-table th:nth-child(4),
+.md-typeset table.schedule-table td:nth-child(4) { width: 24%; }
+.md-typeset table.schedule-table th:nth-child(5),
+.md-typeset table.schedule-table td:nth-child(5) { width: 9%; }
+.md-typeset table.schedule-table th:nth-child(6),
+.md-typeset table.schedule-table td:nth-child(6) { width: 37%; }
+
+/* Full course topic list table: Module | Topic */
+.md-typeset table.topics-table {
+  table-layout: fixed;
+}
+.md-typeset table.topics-table th:nth-child(1),
+.md-typeset table.topics-table td:nth-child(1) { width: 38%; }
+.md-typeset table.topics-table th:nth-child(2),
+.md-typeset table.topics-table td:nth-child(2) { width: 62%; }
+
+/* Assignments and Grading table: Assignment | Undergraduate | Graduate */
+.md-typeset table.assign-table {
+  table-layout: fixed;
+}
+.md-typeset table.assign-table th:nth-child(1),
+.md-typeset table.assign-table td:nth-child(1) { width: 50%; }
+.md-typeset table.assign-table th:nth-child(2),
+.md-typeset table.assign-table td:nth-child(2) { width: 25%; }
+.md-typeset table.assign-table th:nth-child(3),
+.md-typeset table.assign-table td:nth-child(3) { width: 25%; }
+
+/* Grading Scheme table: 4 pairs of Grade | Points */
+.md-typeset table.grading-table {
+  table-layout: fixed;
+}
+.md-typeset table.grading-table th:nth-child(odd),
+.md-typeset table.grading-table td:nth-child(odd) { width: 7%; }
+.md-typeset table.grading-table th:nth-child(even),
+.md-typeset table.grading-table td:nth-child(even) { width: 18%; }
