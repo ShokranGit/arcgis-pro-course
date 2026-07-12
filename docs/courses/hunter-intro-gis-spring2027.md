@@ -8,6 +8,8 @@ title: Intro to GIS (Spring 2027, Hunter College)
 
 This page tracks the course schedule for the Spring 2027 section of *Intro to GIS* at Hunter College. Fill in the Date column to match Hunter's official academic calendar for this semester.
 
+[Syllabus](hunter-syllabus.md){ .md-button }
+
 ## Course schedule
 
 <div class="schedule-table" markdown="1">
