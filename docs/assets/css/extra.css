@@ -271,3 +271,11 @@
 .grading-table table td:nth-child(odd) { width: 13% !important; }
 .grading-table table th:nth-child(even),
 .grading-table table td:nth-child(even) { width: 12% !important; }
+
+
+/* Widen the overall page grid so the main content column (and its tables)
+   has much more horizontal room. Sidebars (nav + table of contents) keep
+   their fixed widths, so this space goes entirely to the content area. */
+.md-grid {
+  max-width: 1600px;
+}
