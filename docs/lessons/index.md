@@ -32,7 +32,8 @@ A date-free, college-agnostic view of every topic in the course. This list isn't
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Cartographic Principles](04-symbology-map-design.md) |
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Map Classification](04-symbology-map-design.md) |
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Map Elements, Layout, and Design](04-symbology-map-design.md) |
-| <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Data Query and Data Selection (Select by Attributes & Select by Location)](03-selection-by-attribute.md) |
+| <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Select by Attributes](03-selection-by-attribute.md) |
+| <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Select by Location](03b-selection-by-location.md) |
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Table Join](../slides/table-join.md) |
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | Spatial Join: Intersect |
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | Spatial Join: Distance |
