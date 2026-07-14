@@ -86,6 +86,7 @@ nav:
       - "01 · Getting Started": lessons/01-getting-started.md
       - "02 · Data, Layers, and Coordinate Systems": lessons/02-data-layers-coordinate-systems.md
       - "03 · Selection by Attribute": lessons/03-selection-by-attribute.md
+      - "03b · Select by Location": lessons/03b-selection-by-location.md
       - "04 · Symbology and Map Design": lessons/04-symbology-map-design.md
       - "05 · Geoprocessing": lessons/05-geoprocessing.md
       - "06 · Raster Analysis": lessons/06-raster-analysis.md
