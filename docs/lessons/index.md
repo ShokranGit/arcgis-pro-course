@@ -33,7 +33,7 @@ A date-free, college-agnostic view of every topic in the course. This list isn't
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Map Classification](04-symbology-map-design.md) | — | Lab 06 |
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Map Elements, Layout, and Design](04-symbology-map-design.md) | — | Lab 06 |
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Select by Attributes](03-selection-by-attribute.md) | — | Lab 07 |
-| <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Select by Location](03b-selection-by-location.md) | — | Lab 07 |
+| <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Select by Location](03b-selection-by-location.md) | — | [Select by Location](../labs/selection-by-location-widget.html) |
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Table Join](../slides/table-join.md) | [Slides](../slides/table-join.md) | Lab 08 |
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | Spatial Join: Intersect | — | Lab 08 |
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | Spatial Join: Distance | — | Lab 08 |
