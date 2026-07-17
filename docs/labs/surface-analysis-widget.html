@@ -289,71 +289,7 @@ font-family:var(--sans); font-size:13.5px; font-weight:600; padding:8px 16px; bo
   <p class="ref-caption">Aspect, Reclassified. Eight cardinal direction bins plus Flat, color-coded by compass direction.</p>
   </div>
   <div class="callout"><b>Note:</b> this result looks like a fine-grained speckled pattern, that comes from pixel-to-pixel direction changing constantly, which is a genuine feature of aspect data over rugged terrain, not an error. Aspect can flip direction across a single ridge, gully, or cliff face, so complex canyon terrain almost always produces this speckled look, while smoother, rolling terrain would show cleaner color bands. What is still worth checking: zoom into one specific, recognizable canyon wall you can identify in the Hillshade layer, and confirm the dominant aspect color on that wall matches the compass direction the wall actually faces (e.g., a wall you know faces west should be dominated by the West color, even amid the speckle).</div>
-  <h3>Instructor Verification Script (Python Window)</h3>
-  <p>Paste this into the ArcGIS Pro Python window (View tab, Python) with the project open and both DEM tiles and <code>Zion_Boundary</code> already created as described above:</p>
-  <div class="codeblock">import arcpy
-  from arcpy.sa import *
-
-arcpy.CheckOutExtension("Spatial")
-  aprx = arcpy.mp.ArcGISProject("CURRENT")
-  m = aprx.listMaps("Map")[0]
-  arcpy.env.workspace = aprx.defaultGeodatabase
-  arcpy.env.overwriteOutput = True
   
-  try:
-      # --- Merge the two DEM tiles ---
-      tile1 = arcpy.ListRasters("*n38w113*")[0]
-      tile2 = arcpy.ListRasters("*n38w114*")[0]
-      arcpy.management.MosaicToNewRaster(
-          [tile1, tile2], arcpy.env.workspace, "DEM_Zion_Merged",
-          pixel_type="32_BIT_FLOAT", number_of_bands=1)
-  
-      # --- Clip to the real park boundary ---
-      dem = arcpy.management.Clip(
-          "DEM_Zion_Merged", "#", "DEM_ZionClipped",
-          "Zion_Boundary", clipping_geometry="ClippingGeometry")[0]
-  
-      # --- Hillshade ---
-      hillshade = Hillshade(dem, 315, 45)
-      hillshade.save("hillshade")
-  
-      # --- Slope + Reclassify ---
-      slope = Slope(dem, "PERCENT_RISE")
-      slope_reclass = Reclassify(slope, "Value",
-          RemapRange([[0, 10, 1], [10, 25, 2], [25, 40, 3], [40, 9999, 4]]))
-      slope_reclass.save("slope_reclass")
-  
-      # --- Aspect + Reclassify (8 cardinal bins) ---
-      aspect = Aspect(dem)
-      aspect_reclass = Reclassify(aspect, "Value",
-          RemapRange([
-              [-1, 0, 0],        # Flat
-              [0, 22.5, 1],      # N
-              [22.5, 67.5, 2],   # NE
-              [67.5, 112.5, 3],  # E
-              [112.5, 157.5, 4], # SE
-              [157.5, 202.5, 5], # S
-              [202.5, 247.5, 6], # SW
-              [247.5, 292.5, 7], # W
-              [292.5, 337.5, 8], # NW
-              [337.5, 360, 1]    # N (wrap-around)
-          ]))
-      aspect_reclass.save("aspect_reclass")
-  
-      print("Rasters created: hillshade, slope_reclass, aspect_reclass")
-  
-  except Exception as e:
-    print("ERROR:", e)
-      
-      # --- Print cell counts, to fill in / check the Reference Counts ---
-  for name in ["slope_reclass", "aspect_reclass"]:
-      print("\nClass counts for " + name + ":")
-      for row in arcpy.da.SearchCursor(name, ["Value", "Count"]):
-          print("  Class " + str(row[0]) + ": " + str(row[1]) + " cells")
-  
-  print("\nDone. Compare the counts above against your own reclassified layers.")
-  </div>
-  <div class="callout"><b>Note:</b> this script's cell-count printout is what should populate a fixed Reference Counts table for this lab. Because results depend on the exact DEM tiles you download and the precise boundary clip, run this once against a known-good project to record baseline numbers before treating them as fixed reference values for students.</div>
   </div>
 
   </div>
