@@ -2,7 +2,9 @@
 
 <p class="lab-subtitle">Siting a Community Solar Installation - Staten Island, NYC</p>
 
-<p class="lab-back"><a href="../lessons/index.md#suitability-modeling">&larr; Back to Lessons</a></p>
+<p class="lab-back"><a href="../../lessons/#suitability-modeling">&larr; Back to Lessons</a></p>
+
+<div class="lab-toc"><b>On this page:</b> <a href="#student-handout">Student Handout</a> · <a href="#data-acquisition">Data Acquisition</a> · <a href="#project-instructions">Project Instructions</a> · <a href="#result-reference">Result Reference</a></div>
 
 <div class="lab-widget">
 <div class="contents">
@@ -254,25 +256,25 @@
 <h3>Reference Answer Key - Verified Results</h3>
 <p>These are real, verified outputs from a successful run of this lab, generated on Staten Island (Richmond County) data. Use them to check your own results for a similar overall pattern, your exact colors depend on your own symbology choices, but the spatial pattern should be comparable.</p>
 <div class="ref-figure">
-<img src="suitability-slope-reclass.png" alt="Slope reclassified into a 1-5 suitability scale">
+<img src="../suitability-slope-reclass.png" alt="Slope reclassified into a 1-5 suitability scale">
 <p class="ref-caption">Slope_Reclass: 1 (steepest, &lt;25%) through 5 (flattest, 0-3%).</p>
 </div>
 <div class="callout"><b>What you're looking at:</b> this map is dominated by the flattest two classes. That is a correct, expected result, not an error, Staten Island, like most of NYC's outer boroughs, is genuinely low-relief terrain. A slope map dominated by "flat" classes reflects real geography here.</div>
 <div class="callout"><b>Note:</b> A quick way to confirm this without just trusting the colors: right-click <code>Slope_Reclass</code>, Attribute Table, and check that classes 4 and 5 have the largest Count values.</div>
 <div class="ref-figure">
-<img src="suitability-landcover-reclass.png" alt="Land cover reclassified into a 1-5 suitability scale">
+<img src="../suitability-landcover-reclass.png" alt="Land cover reclassified into a 1-5 suitability scale">
 <p class="ref-caption">LandCover_Reclass: 1 (water/wetland/dense development) through 5 (cultivated/open land).</p>
 </div>
 <div class="callout"><b>What you're looking at:</b> purple (value 1, least suitable) covers large areas, consistent with how heavily developed much of Staten Island is. Green (value 2, forest and light development) traces the island's wooded Greenbelt interior. Yellow/tan (values 4-5) appear only as small, scattered patches, Staten Island has very little actual farmland, so high scores here are genuinely rare, not a sign that something was skipped.</div>
 
 <div class="ref-figure">
-<img src="suitability-roaddist-reclass.png" alt="Road proximity reclassified into a 1-5 suitability scale">
+<img src="../suitability-roaddist-reclass.png" alt="Road proximity reclassified into a 1-5 suitability scale">
 <p class="ref-caption">RoadDist_Reclass, correctly clipped to the island: red (5, closest to roads) through blue (2, farthest).</p>
 </div>
 <div class="callout"><b>What you're looking at:</b> red hugs the dense street network, fading outward through green, cyan, and blue as distance increases, exactly the expected pattern for a distance-based score.</div>
 <div class="callout"><b>Note:</b> Notice classes 1 and 2 (the very farthest distances) are largely or entirely absent once properly clipped to the real island boundary. That is expected: Staten Island is dense enough that almost no point on the actual island is more than a few kilometers from a mapped road. Those farthest classes only existed in an earlier, incorrectly large rectangular version of this layer that extended into open water and New Jersey, clipping to the real coastline correctly removed them.</div>
 <div class="ref-figure">
-<img src="suitability-final-surface.png" alt="Final weighted suitability surface for solar siting">
+<img src="../suitability-final-surface.png" alt="Final weighted suitability surface for solar siting">
 <p class="ref-caption">Suitability_StatenIsland: the three criteria combined, 40/35/25 weighting.</p>
 </div>
 <div class="callout"><b>What you're looking at:</b> orange (value 3, the "middle" score) dominates most of the island, consistent with typical mixed residential/developed land that is neither ideal nor terrible on any single criterion. Dark green (value 5, best) clusters in a band through the island's interior, broadly aligned with the Greenbelt corridor.</div>
@@ -292,6 +294,6 @@ result: "SML2026"
 </script>
 
 <div class="lab-nav">
-<span class="lab-nav-prev"><a href="surface-analysis.md">Surface Analysis</a></span>
+<span class="lab-nav-prev"><a href="../surface-analysis/">Surface Analysis</a></span>
 <span class="lab-nav-next"></span>
 </div>
