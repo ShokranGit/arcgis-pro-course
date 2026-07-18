@@ -66,6 +66,10 @@ markdown_extensions:
 
 extra_css:
   - assets/css/extra.css
+  - assets/css/lab-widget.css
+
+extra_javascript:
+  - assets/js/lab-widget.js
 
 extra:
   course:
@@ -95,6 +99,7 @@ nav:
       - "Intro to GIS — Spring 2027 (Hunter College)": courses/hunter-intro-gis-spring2027.md
   - Labs:
       - Overview: labs/index.md
+      - "Suitability Modeling": labs/suitability-modeling.md
       - "Table Join Slides": slides/table-join.md
   - GIS Concepts:
       - Overview: concepts/index.md
