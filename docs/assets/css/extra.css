@@ -240,7 +240,7 @@
   min-width: 0 !important;
 }
 .topics-table table th:nth-child(1),
-.topics-table table td:nth-child(1) { width: 3.5% !important; }
+.topics-table table td:nth-child(1) { width: calc(3.5% + 10mm) !important; }
 .topics-table table th:nth-child(2),
 .topics-table table td:nth-child(2) { width: 30% !important; }
 .topics-table table th:nth-child(3),
@@ -262,7 +262,7 @@
   text-align: center;
   vertical-align: middle;
   padding: 0.5rem 0.15rem !important;
-  font-size: 0.72rem;
+    font-size: 0.88rem;
 }
 .topics-table .module-badge {
   display: inline-block;
@@ -273,17 +273,17 @@
   border: none !important;
   border-radius: 0 !important;
   padding: 0 !important;
-  font-size: 0.72rem;
+    font-size: 0.88rem;
   font-weight: 800;
   letter-spacing: 0.02em;
 }
 .topics-table tr.module-row-intro td { background: rgba(201, 143, 13, 0.1) !important; }
-.topics-table tr.module-row-tabular td { background: rgba(196, 90, 17, 0.1) !important; }
+.topics-table tr.module-row-tabular td { background: rgba(31, 90, 160, 0.1) !important; }
 .topics-table tr.module-row-spatial td { background: rgba(107, 63, 157, 0.1) !important; }
 .topics-table tr.module-row-ethics td { background: rgba(176, 42, 42, 0.1) !important; }
 .topics-table tr.module-row-geoprocessing td { background: rgba(120, 90, 40, 0.1) !important; }
 .topics-table tr.module-row-intro .module-badge { color: #8a6100; }
-.topics-table tr.module-row-tabular .module-badge { color: #8a3d0f; }
+.topics-table tr.module-row-tabular .module-badge { color: #1a4a80; }
 .topics-table tr.module-row-spatial .module-badge { color: #4b2f73; }
 .topics-table tr.module-row-ethics .module-badge { color: #7a1f1f; }
 .topics-table tr.module-row-geoprocessing .module-badge { color: #5c4420; }
