@@ -283,3 +283,10 @@
 .md-grid {
   max-width: 1600px;
 }
+
+/* Lessons overview page: the topic list already lives in the table below,
+so hide the redundant left-hand lesson list sidebar and let the table
+use that reclaimed width. */
+body:has(.topics-table) .md-sidebar--primary {
+  display: none;
+}
