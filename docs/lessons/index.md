@@ -42,7 +42,7 @@ A date-free, college-agnostic view of every topic in the course. This list isn't
 | <span class="module-badge module-spatial">Spatial Analysis</span> | [Dissolve](05-geoprocessing.md) | — | Lab 09 |
 | <span class="module-badge module-spatial">Spatial Analysis</span> | [Overlay (Union/Intersect)](05-geoprocessing.md) | — | Lab 09 |
 | <span id="surface-analysis" class="module-badge module-spatial">Spatial Analysis</span> | [Raster Analysis: Surface Analysis](06-raster-analysis.md) | — | [Surface Analysis](../labs/surface-analysis/) |
-| <span class="module-badge module-spatial">Spatial Analysis</span> | [Map Algebra](06-raster-analysis.md) | — | Lab 10 |
+| <span id="map-algebra" class="module-badge module-spatial">Spatial Analysis</span> | [Map Algebra](06-raster-analysis.md) | – | [Map Algebra](../labs/map-algebra/) |
 | <span id="suitability-modeling" class="module-badge module-spatial">Spatial Analysis</span> | [Suitability Modeling](06-raster-analysis.md) | — | [Suitability Modeling](../labs/suitability-modeling/) |
 | <span class="module-badge module-spatial">Spatial Analysis</span> | Intro to Geospatial Programming | — | Lab 11 |
 | <span class="module-badge module-ethics">Future of GISc</span> | Future of GISc | — | Lab 12 |
