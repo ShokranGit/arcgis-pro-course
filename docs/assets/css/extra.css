@@ -256,6 +256,14 @@
   text-align: center;
   vertical-align: middle;
 }
+.topics-table table th:first-child {
+  writing-mode: vertical-rl;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5rem 0.15rem !important;
+  font-size: 0.72rem;
+}
 .topics-table .module-badge {
   display: inline-block;
   writing-mode: vertical-rl;
