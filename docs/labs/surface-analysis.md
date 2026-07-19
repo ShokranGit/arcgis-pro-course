@@ -191,5 +191,5 @@ result: "SFA2026"
 
 <div class="lab-nav">
 <span class="lab-nav-prev"><a href="../select-by-location/">Select by Location</a></span>
-<span class="lab-nav-next"><a href="../suitability-modeling/">Suitability Modeling</a></span>
+<span class="lab-nav-next"><a href="../map-algebra/">Map Algebra</a></span>
 </div>
