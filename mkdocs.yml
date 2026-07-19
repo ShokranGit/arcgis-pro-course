@@ -99,6 +99,9 @@ nav:
       - "Intro to GIS — Spring 2027 (Hunter College)": courses/hunter-intro-gis-spring2027.md
   - Labs:
       - Overview: labs/index.md
+      - "Select by Attributes": labs/select-by-attributes.md
+      - "Select by Location": labs/select-by-location.md
+      - "Surface Analysis": labs/surface-analysis.md
       - "Suitability Modeling": labs/suitability-modeling.md
       - "Table Join Slides": slides/table-join.md
   - GIS Concepts:
