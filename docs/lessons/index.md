@@ -32,8 +32,8 @@ A date-free, college-agnostic view of every topic in the course. This list isn't
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Cartographic Principles](04-symbology-map-design.md) | — | Lab 06 |
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Map Classification](04-symbology-map-design.md) | — | Lab 06 |
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Map Elements, Layout, and Design](04-symbology-map-design.md) | — | Lab 06 |
-| <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Select by Attributes](03-selection-by-attribute.md) | — | [Select by Attributes](../labs/selection-by-attributes-widget.html) |
-| <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Select by Location](03b-selection-by-location.md) | — | [Select by Location](../labs/selection-by-location-widget.html) |
+| <span id="select-by-attributes" class="module-badge module-tabular">Tabular Data and Mapping</span> | [Select by Attributes](03-selection-by-attribute.md) | — | [Select by Attributes](../labs/selection-by-attributes-widget.html) |
+| <span id="select-by-location" class="module-badge module-tabular">Tabular Data and Mapping</span> | [Select by Location](03b-selection-by-location.md) | — | [Select by Location](../labs/selection-by-location-widget.html) |
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | [Table Join](../slides/table-join.md) | [Slides](../slides/table-join.md) | Lab 08 |
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | Spatial Join: Intersect | — | Lab 08 |
 | <span class="module-badge module-tabular">Tabular Data and Mapping</span> | Spatial Join: Distance | — | Lab 08 |
@@ -41,9 +41,9 @@ A date-free, college-agnostic view of every topic in the course. This list isn't
 | <span class="module-badge module-spatial">Spatial Analysis</span> | [Clip](05-geoprocessing.md) | — | Lab 09 |
 | <span class="module-badge module-spatial">Spatial Analysis</span> | [Dissolve](05-geoprocessing.md) | — | Lab 09 |
 | <span class="module-badge module-spatial">Spatial Analysis</span> | [Overlay (Union/Intersect)](05-geoprocessing.md) | — | Lab 09 |
-| <span class="module-badge module-spatial">Spatial Analysis</span> | [Raster Analysis: Surface Analysis](06-raster-analysis.md) | — | [Surface Analysis](../labs/surface-analysis-widget.html) |
+| <span id="surface-analysis" class="module-badge module-spatial">Spatial Analysis</span> | [Raster Analysis: Surface Analysis](06-raster-analysis.md) | — | [Surface Analysis](../labs/surface-analysis-widget.html) |
 | <span class="module-badge module-spatial">Spatial Analysis</span> | [Map Algebra](06-raster-analysis.md) | — | Lab 10 |
-| <span class="module-badge module-spatial">Spatial Analysis</span> | [Suitability Modeling](06-raster-analysis.md) | — | [Suitability Modeling](../labs/suitability-modeling-widget.html) |
+| <span id="suitability-modeling" class="module-badge module-spatial">Spatial Analysis</span> | [Suitability Modeling](06-raster-analysis.md) | — | [Suitability Modeling](../labs/suitability-modeling/) |
 | <span class="module-badge module-spatial">Spatial Analysis</span> | Intro to Geospatial Programming | — | Lab 11 |
 | <span class="module-badge module-ethics">Future of GISc</span> | Future of GISc | — | Lab 12 |
 
