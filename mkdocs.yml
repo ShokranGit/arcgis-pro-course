@@ -102,7 +102,7 @@ nav:
       - "Select by Attributes": labs/select-by-attributes.md
       - "Select by Location": labs/select-by-location.md
       - "Surface Analysis": labs/surface-analysis.md
-    - "Map Algebra": labs/map-algebra.md
+      - "Map Algebra": labs/map-algebra.md
       - "Suitability Modeling": labs/suitability-modeling.md
       - "Table Join Slides": slides/table-join.md
   - GIS Concepts:
