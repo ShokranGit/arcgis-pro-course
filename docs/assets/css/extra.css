@@ -240,13 +240,13 @@
   min-width: 0 !important;
 }
 .topics-table table th:nth-child(1),
-.topics-table table td:nth-child(1) { width: 30% !important; }
+.topics-table table td:nth-child(1) { width: 16% !important; }
 .topics-table table th:nth-child(2),
-.topics-table table td:nth-child(2) { width: 45% !important; }
+.topics-table table td:nth-child(2) { width: 24% !important; }
 .topics-table table th:nth-child(3),
-.topics-table table td:nth-child(3) { width: 12% !important; }
+.topics-table table td:nth-child(3) { width: 7% !important; }
 .topics-table table th:nth-child(4),
-.topics-table table td:nth-child(4) { width: 13% !important; }
+.topics-table table td:nth-child(4) { width: 41% !important; } .topics-table table th:nth-child(5), .topics-table table td:nth-child(5) { width: 12% !important; }
 
 /* Assignments and Grading table: Assignment | Undergraduate | Graduate */
 .assign-table table {
