@@ -100,7 +100,7 @@ nav:
       - "07 · Spatial Joins": lessons/07-spatial-joins.md
       - "08 · Introduction to Geospatial Programming": lessons/08-geospatial-programming.md
       - "09 · The Future of GISc": lessons/09-future-of-gisc.md
-    - Courses:
+  - Courses:
       - "Principles of GISc — Fall 2026 (Lehman College)": courses/lehman-gisc-fall2026.md
       - "Intro to GIS — Spring 2027 (Hunter College)": courses/hunter-intro-gis-spring2027.md
   - Labs:
