@@ -294,6 +294,6 @@ result: "SML2026"
 </script>
 
 <div class="lab-nav">
-<span class="lab-nav-prev"><a href="../surface-analysis/">Surface Analysis</a></span>
+<span class="lab-nav-prev"><a href="../map-algebra/">Map Algebra</a></span>
 <span class="lab-nav-next"></span>
 </div>
