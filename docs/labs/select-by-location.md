@@ -208,5 +208,5 @@ result: "SBL2026"
 
 <div class="lab-nav">
 <span class="lab-nav-prev"><a href="../select-by-attributes/">Select by Attributes</a></span>
-<span class="lab-nav-next"><a href="../surface-analysis/">Surface Analysis</a></span>
+<span class="lab-nav-next"><a href="../buffer/">Buffer</a></span>
 </div>
