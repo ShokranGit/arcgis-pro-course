@@ -190,6 +190,6 @@ result: "SFA2026"
 </script>
 
 <div class="lab-nav">
-<span class="lab-nav-prev"><a href="../select-by-location/">Select by Location</a></span>
+<span class="lab-nav-prev"><a href="../buffer/">Buffer</a></span>
 <span class="lab-nav-next"><a href="../map-algebra/">Map Algebra</a></span>
 </div>
