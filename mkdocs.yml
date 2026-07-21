@@ -112,6 +112,7 @@ nav:
       - "Surface Analysis": labs/surface-analysis.md
       - "Map Algebra": labs/map-algebra.md
       - "Suitability Modeling": labs/suitability-modeling.md
+      - "Clip": labs/clip.md
       - "Table Join Slides": slides/table-join.md
       - "Projection Slides": slides/projection.md
   - GIS Concepts:
