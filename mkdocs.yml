@@ -113,6 +113,7 @@ nav:
       - "Map Algebra": labs/map-algebra.md
       - "Suitability Modeling": labs/suitability-modeling.md
       - "Table Join Slides": slides/table-join.md
+      - "Projection Slides": slides/projection.md
   - GIS Concepts:
       - Overview: concepts/index.md
       - "Vector and Raster Data": concepts/vector-raster.md
