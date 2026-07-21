@@ -295,5 +295,5 @@ result: "SML2026"
 
 <div class="lab-nav">
 <span class="lab-nav-prev"><a href="../map-algebra/">Map Algebra</a></span>
-<span class="lab-nav-next"></span>
+<span class="lab-nav-next"><a href="../clip/">Clip</a></span>
 </div>
