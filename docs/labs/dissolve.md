@@ -231,5 +231,5 @@ result: "DIS2026"
 
 <div class="lab-nav">
 <span class="lab-nav-prev"><a href="../clip/">Clip</a></span>
-<span class="lab-nav-next"></span>
+<span class="lab-nav-next"><a href="../overlay/">Overlay</a></span>
 </div>
