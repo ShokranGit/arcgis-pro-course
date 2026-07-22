@@ -339,7 +339,7 @@ body:has(.topics-table) .md-sidebar--primary {
 .schedule-table table thead th,
 .grading-table table thead th {
     position: sticky;
-    top: 48px;
+    top: 0;
     z-index: 2;
     background: var(--md-default-bg-color);
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.15);
