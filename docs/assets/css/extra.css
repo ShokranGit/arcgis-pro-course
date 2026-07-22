@@ -352,3 +352,19 @@ body:has(.topics-table) .md-sidebar--primary {
 .grading-table table tbody tr:hover td {
     background: rgba(31, 122, 77, 0.12) !important;
 }
+
+/* The MkDocs Material table wrapper divs (.md-typeset__scrollwrap and
+   .md-typeset__table) set overflow: auto for horizontal scrolling on
+   narrow screens. That overflow setting also creates a scroll container
+   that breaks position: sticky on our table headers above, even though
+   these wrappers never actually scroll internally (our fixed-width
+   columns already fit the container). Let the header stick by allowing
+   these wrappers to overflow visibly for our tables specifically. */
+.topics-table .md-typeset__scrollwrap,
+.topics-table .md-typeset__table,
+.schedule-table .md-typeset__scrollwrap,
+.schedule-table .md-typeset__table,
+.grading-table .md-typeset__scrollwrap,
+.grading-table .md-typeset__table {
+    overflow: visible !important;
+}
