@@ -330,3 +330,25 @@ use that reclaimed width. */
 body:has(.topics-table) .md-sidebar--primary {
   display: none;
 }
+
+
+/* Sticky column headers: keep the header row (Date, Lab, Module, Topics,
+   Slides, Readings, etc.) visible while scrolling down a long table, so
+   it's always clear which column you're looking at. */
+.topics-table table thead th,
+.schedule-table table thead th,
+.grading-table table thead th {
+    position: sticky;
+    top: 48px;
+    z-index: 2;
+    background: var(--md-default-bg-color);
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.15);
+}
+
+/* Row hover highlight: makes it easy to trace one row across all of its
+   columns without losing your place. */
+.topics-table table tbody tr:hover td,
+.schedule-table table tbody tr:hover td,
+.grading-table table tbody tr:hover td {
+    background: rgba(31, 122, 77, 0.12) !important;
+}
