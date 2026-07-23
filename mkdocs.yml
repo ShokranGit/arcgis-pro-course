@@ -115,6 +115,7 @@ nav:
       - "Clip": labs/clip.md
       - "Dissolve": labs/dissolve.md
       - "Overlay": labs/overlay.md
+      - "Intro to Geospatial Programming": labs/intro-to-geospatial-programming.md
       - "Table Join Slides": slides/table-join.md
       - "Projection Slides": slides/projection.md
       - "Spatial Join Slides": slides/spatial-join.md
