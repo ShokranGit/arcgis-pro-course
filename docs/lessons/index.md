@@ -8,7 +8,7 @@ A date-free, college-agnostic view of every topic in the course. This list isn't
 
 <div class="topics-table" markdown="1">
 
-| Module | Topic | Slides | Lab | Readings |
+| Modules | Topics | Slides | Labs | Readings |
 |---|---|---|---|---|
 | <span class="module-badge module-intro">Introduction, Foundations, and Data Management</span> | [Course Overview and Intro](00-introduction-to-gis.md); [Software Installation](00-introduction-to-gis.md) | [Course Overview and Intro](../slides/introduction-to-gis.md); [Software Installation](../slides/introduction-to-gis.md) | Lab 01 | [Esri: Introduction to ArcGIS Pro](https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html){: .src-esri}; [Esri Tutorial Path: Try ArcGIS Pro](https://learn.arcgis.com/en/paths/try-arcgis-pro/){: .src-esri}; [Flexible GIS Workbook: Setup Before You Begin](https://mlpp.pressbooks.pub/flexiblegisworkbookpro/front-matter/setup-before-you-begin/){: .src-workbook} |
 | <span class="module-badge module-intro">Introduction, Foundations, and Data Management</span> | [History of GIS and ArcGIS Ecosystem](00-introduction-to-gis.md) | [History of GIS and ArcGIS Ecosystem](../slides/introduction-to-gis.md) | Lab 02 | [GIS & Cartography: 1.1 Introduction](https://slcc.pressbooks.pub/maps/chapter/1-1/){: .src-cartography}; [Essentials of GIS: Ch. 1 Introduction](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s05-introduction.html){: .src-essentials} |
