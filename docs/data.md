@@ -12,7 +12,7 @@ Course_Data.zip
 
 ## Dataset inventory
 
-| Dataset | Format | Source | Used in |
+| Datasets | Formats | Sources | Used in |
 |---|---|---|---|
 | Example neighborhoods | Shapefile or feature class | TBD | Lessons 01–04 |
 | Example raster | GeoTIFF | TBD | Lesson 06 |
