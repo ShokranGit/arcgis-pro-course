@@ -67,7 +67,7 @@ The material we will be discussing in class touches on a number of sensitive iss
 
 <div class="assign-table" markdown="1">
 
-| Component | Description | Weight |
+| Components | Descriptions | Weights |
 |---|---|---|
 | Attendance & Participation | Regular attendance, engagement in labs, discussions, and class activities. | 10% |
 | Assignment 1: Optimum File Management Practices, Data Download & Adding Data | Practice effective file organization, download and manage spatial datasets, and add multiple data layers into your workspace. | 5% |
@@ -92,7 +92,7 @@ Reading materials, basic maps and datasets are available on Brightspace.
 
 <div class="schedule-table" markdown="1">
 
-| Module | Date | Topics | Slides | Lab | Readings/tutorials |
+| Modules | Dates | Topics | Slides | Labs | Readings/tutorials |
 |---|---|---|---|---|---|
 | <span class="module-badge module-intro">Introduction, Foundations, and Data Management</span> | **Week 1**<br>Mon, Feb 1<br>Wed, Feb 3 | [Course Overview and Intro](../lessons/00-introduction-to-gis.md), [Software Installation](../lessons/00-introduction-to-gis.md) | [Course Overview and Intro](../slides/introduction-to-gis.md); [Software Installation](../slides/introduction-to-gis.md) | **Lab 01** | [Flexible GIS Workbook: Setup Before You Begin](https://mlpp.pressbooks.pub/flexiblegisworkbookpro/front-matter/setup-before-you-begin/){: .src-workbook}<br>[Esri: Introduction to ArcGIS Pro](https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html){: .src-esri}<br>[Esri Tutorial Path: Try ArcGIS Pro](https://learn.arcgis.com/en/paths/try-arcgis-pro/){: .src-esri} |
 | <span class="module-badge module-intro">Introduction, Foundations, and Data Management</span> | **Week 2**<br>Mon, Feb 8<br>Wed, Feb 10 | [History of GIS and ArcGIS Ecosystem](../lessons/00-introduction-to-gis.md); [GIS/GISc applications](../lessons/00-introduction-to-gis.md); [why GIS/GISc matter](../lessons/00-introduction-to-gis.md); [The Politics and Ethics of Mapping](../lessons/00-introduction-to-gis.md); [The Power of Maps & Map Types](../lessons/00-introduction-to-gis.md) | [History of GIS and ArcGIS Ecosystem](../slides/introduction-to-gis.md); [GIS/GISc applications](../slides/introduction-to-gis.md); [why GIS/GISc matter](../slides/introduction-to-gis.md) | **Lab 02** | [Essentials of GIS: Ch. 1 Introduction](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s05-introduction.html){: .src-essentials}<br>[Essentials of GIS: Ch. 2 Map Anatomy](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s06-map-anatomy.html){: .src-essentials}<br>[GIS & Cartography: 1.1 Introduction](https://slcc.pressbooks.pub/maps/chapter/1-1/){: .src-cartography}<br>[GIS & Cartography: 1.2 Geographic Science](https://slcc.pressbooks.pub/maps/chapter/1-2/){: .src-cartography}<br>[GIS & Cartography: 1.3 Geospatial Technology](https://slcc.pressbooks.pub/maps/chapter/1-3/){: .src-cartography}<br>[GIS & Cartography: 1.5 Map Fundamentals](https://slcc.pressbooks.pub/maps/chapter/1-5/){: .src-cartography}<br>[Modern GIS Learning Modules](https://modern-gis-learngis.hub.arcgis.com/){: .src-moderngis} |
