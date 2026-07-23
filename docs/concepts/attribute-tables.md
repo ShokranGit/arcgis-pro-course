@@ -17,7 +17,7 @@ Attribute tables let you:
 
 ## Common field types
 
-| Type | Example |
+| Types | Examples |
 |---|---|
 | Text | Borough name |
 | Integer | Population count |
