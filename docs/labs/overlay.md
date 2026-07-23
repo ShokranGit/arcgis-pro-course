@@ -10,5 +10,5 @@
 
 <div class="lab-nav">
 <span class="lab-nav-prev"><a href="../dissolve/">Dissolve</a></span>
-<span class="lab-nav-next"></span>
+<span class="lab-nav-next"><a href="../intro-to-geospatial-programming/">Intro to Geospatial Programming</a></span>
 </div>
