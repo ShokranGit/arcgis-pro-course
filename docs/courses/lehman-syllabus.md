@@ -46,7 +46,7 @@ Students successfully completing this course will be able to:
 
 <div class="assign-table" markdown="1">
 
-| Assignment | Undergraduate | Graduate |
+| Assignments | Undergraduates | Graduates |
 |---|---|---|
 | Laboratory Exercises | 300 pts (7 labs, 50 pts each, lowest grade dropped) | 300 pts (7 labs, 50 pts each, lowest grade dropped) |
 | GIS Project | 300 pts | 300 pts |
@@ -86,7 +86,7 @@ In project workshop sessions and office hours, each group/student will receive f
 
 <div class="grading-table" markdown="1">
 
-| Grade | Points | Grade | Points | Grade | Points | Grade | Points |
+| Grades | Points | Grades | Points | Grades | Points | Grades | Points |
 |---|---|---|---|---|---|---|---|
 | A | 930 - 1000 | B | 830 - 869 | C | 730 - 769 | D- | 600 - 629 |
 | A- | 900 - 929 | B- | 800 - 829 | C- | 670 - 729 | F | Below 600 |
@@ -100,7 +100,7 @@ In project workshop sessions and office hours, each group/student will receive f
 
 <div class="schedule-table" markdown="1">
 
-| Module | Date | Topics | Slides | Lab | Readings/tutorials |
+| Modules | Dates | Topics | Slides | Labs | Readings/tutorials |
 |---|---|---|---|---|---|
 | <span class="module-badge module-intro">Introduction, Foundations, and Data Management</span> | Sep 2, 2026 | [Course Overview and Intro](../lessons/00-introduction-to-gis.md), [Software Installation](../lessons/00-introduction-to-gis.md) | [Course Overview and Intro](../slides/introduction-to-gis.md); [Software Installation](../slides/introduction-to-gis.md) | **Lab 01** | [Flexible GIS Workbook: Setup Before You Begin](https://mlpp.pressbooks.pub/flexiblegisworkbookpro/front-matter/setup-before-you-begin/){: .src-workbook}<br>[Esri: Introduction to ArcGIS Pro](https://doc.esri.com/en/arcgis-pro/latest/get-started/get-started.html){: .src-esri}<br>[Esri Tutorial Path: Try ArcGIS Pro](https://learn.arcgis.com/en/paths/try-arcgis-pro/){: .src-esri} |
 | <span class="module-badge module-intro">Introduction, Foundations, and Data Management</span> | Sep 9, 2026 | [History of GIS and ArcGIS Ecosystem](../lessons/00-introduction-to-gis.md); [GIS/GISc applications](../lessons/00-introduction-to-gis.md); [why GIS/GISc matter](../lessons/00-introduction-to-gis.md); [The Politics and Ethics of Mapping](../lessons/00-introduction-to-gis.md); [The Power of Maps & Map Types](../lessons/00-introduction-to-gis.md) | [History of GIS and ArcGIS Ecosystem](../slides/introduction-to-gis.md); [GIS/GISc applications](../slides/introduction-to-gis.md); [why GIS/GISc matter](../slides/introduction-to-gis.md) | **Lab 02** | [Essentials of GIS: Ch. 1 Introduction](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s05-introduction.html){: .src-essentials}<br>[Essentials of GIS: Ch. 2 Map Anatomy](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s06-map-anatomy.html){: .src-essentials}<br>[GIS & Cartography: 1.1 Introduction](https://slcc.pressbooks.pub/maps/chapter/1-1/){: .src-cartography}<br>[GIS & Cartography: 1.2 Geographic Science](https://slcc.pressbooks.pub/maps/chapter/1-2/){: .src-cartography}<br>[GIS & Cartography: 1.3 Geospatial Technology](https://slcc.pressbooks.pub/maps/chapter/1-3/){: .src-cartography}<br>[GIS & Cartography: 1.5 Map Fundamentals](https://slcc.pressbooks.pub/maps/chapter/1-5/){: .src-cartography}<br>[Modern GIS Learning Modules](https://modern-gis-learngis.hub.arcgis.com/){: .src-moderngis} |
