@@ -68,7 +68,7 @@
      mergeModuleColumn(table, 1);
    });
    document.querySelectorAll('.schedule-table table').forEach(function (table) {
-     mergeModuleColumn(table, 3);
+     mergeModuleColumn(table, 1);
    });
  }
 
