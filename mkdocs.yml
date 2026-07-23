@@ -124,6 +124,7 @@ nav:
       - "Select by Location Slides": slides/select-by-location.md
       - "Geoprocessing Tools Slides": slides/geoprocessing-tools.md
       - "Raster Data Analysis Slides": slides/raster-data-analysis.md
+      - "ArcGIS Pro UI Tour Slides": slides/arcgis-pro-ui-tour.md
   - GIS Concepts:
       - Overview: concepts/index.md
       - "Vector and Raster Data": concepts/vector-raster.md
