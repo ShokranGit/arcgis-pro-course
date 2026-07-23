@@ -210,17 +210,17 @@
   min-width: 0 !important;
 }
 .schedule-table table th:nth-child(1),
-.schedule-table table td:nth-child(1) { width: 11% !important; }
+.schedule-table table td:nth-child(1) { width: 5% !important; }
 .schedule-table table th:nth-child(2),
-.schedule-table table td:nth-child(2) { width: 13% !important; }
+.schedule-table table td:nth-child(2) { width: 14% !important; }
 .schedule-table table th:nth-child(3),
-.schedule-table table td:nth-child(3) { width: 24% !important; }
+.schedule-table table td:nth-child(3) { width: 19% !important; }
 .schedule-table table th:nth-child(4),
-.schedule-table table td:nth-child(4) { width: 15% !important; }
+.schedule-table table td:nth-child(4) { width: 25% !important; }
 .schedule-table table th:nth-child(5),
-.schedule-table table td:nth-child(5) { width: 20% !important; }
+.schedule-table table td:nth-child(5) { width: 16% !important; }
 .schedule-table table th:nth-child(6),
-.schedule-table table td:nth-child(6) { width: 17% !important; }
+.schedule-table table td:nth-child(6) { width: 21% !important; }
 
 /* Module badge: force it to fill and wrap within its cell instead of overflowing into the next column */
 .module-badge {
@@ -246,30 +246,19 @@
 .topics-table table th:nth-child(3),
 .topics-table table td:nth-child(3) { width: 15% !important; }
 .topics-table table th:nth-child(4),
-.topics-table table td:nth-child(4) { width: 39% !important; }
+.topics-table table td:nth-child(4) { width: 12.5% !important; }
 .topics-table table th:nth-child(5),
-.topics-table table td:nth-child(5) { width: 12.5% !important; }
+.topics-table table td:nth-child(5) { width: 39% !important; }
 
 /* Module column: merged into one cell per module by topics-table.js, shown as slim rotated text instead of a repeated pill, with the whole row group tinted a soft module color instead. Colors avoid the greens/blues/teals/magentas already used by topic and reading-source links in this table. Applies to the full topic list (Module is column 1) and the course schedule tables (Module is column 3). */
-.topics-table table td:first-child {
+.topics-table table td:first-child,
+.schedule-table table td:first-child {
   padding: 0.5rem 0.15rem !important;
   text-align: center;
   vertical-align: middle;
 }
-.topics-table table th:first-child {
-  writing-mode: vertical-rl;
-  white-space: nowrap;
-  text-align: center;
-  vertical-align: middle;
-  padding: 0.5rem 0.15rem !important;
-  font-size: 0.88rem;
-}
-.schedule-table table td:nth-child(3) {
-  padding: 0.5rem 0.15rem !important;
-  text-align: center;
-  vertical-align: middle;
-}
-.schedule-table table th:nth-child(3) {
+.topics-table table th:first-child,
+.schedule-table table th:first-child {
   writing-mode: vertical-rl;
   white-space: nowrap;
   text-align: center;
