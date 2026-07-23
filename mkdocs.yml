@@ -122,6 +122,7 @@ nav:
       - "Select by Attributes Slides": slides/select-by-attributes.md
       - "Select by Location Slides": slides/select-by-location.md
       - "Geoprocessing Tools Slides": slides/geoprocessing-tools.md
+      - "Raster Data Analysis Slides": slides/raster-data-analysis.md
   - GIS Concepts:
       - Overview: concepts/index.md
       - "Vector and Raster Data": concepts/vector-raster.md
