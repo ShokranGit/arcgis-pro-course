@@ -13,7 +13,7 @@ Geoprocessing tools transform spatial data. Each tool has inputs, parameters, an
 
 ## Common tools
 
-| Tool | Use |
+| Tools | Uses |
 |---|---|
 | Buffer | Create zones around features |
 | Clip | Cut one layer by the boundary of another |
