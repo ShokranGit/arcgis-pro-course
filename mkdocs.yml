@@ -71,6 +71,7 @@ extra_css:
 extra_javascript:
   - assets/js/lab-widget.js
   - assets/js/topics-table.js
+  - assets/js/sticky-table-header.js
 
 extra:
   course:
