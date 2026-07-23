@@ -6,7 +6,7 @@ GIS data often comes in two major forms: vector and raster.
 
 Vector data represents features using points, lines, and polygons.
 
-| Geometry | Example |
+| Geometries | Examples |
 |---|---|
 | Point | Trees, schools, subway stations |
 | Line | Roads, streams, transit routes |
