@@ -121,6 +121,7 @@ nav:
       - "Politics and Ethics of Mapping Slides": slides/politics-ethics-of-mapping.md
       - "Select by Attributes Slides": slides/select-by-attributes.md
       - "Select by Location Slides": slides/select-by-location.md
+      - "Geoprocessing Tools Slides": slides/geoprocessing-tools.md
   - GIS Concepts:
       - Overview: concepts/index.md
       - "Vector and Raster Data": concepts/vector-raster.md
