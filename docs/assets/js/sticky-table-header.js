@@ -60,9 +60,9 @@
                  var w = cell.getBoundingClientRect().width;
                  var c = cloneCells[i];
                  if (c) {
-                           c.style.width = w + 'px';
-                           c.style.minWidth = w + 'px';
-                           c.style.maxWidth = w + 'px';
+                           c.style.setProperty('width', w + 'px', 'important');
+                           c.style.setProperty('min-width', w + 'px', 'important');
+                           c.style.setProperty('max-width', w + 'px', 'important');
                  }
          });
          t.wrap.style.left = rect.left + 'px';
