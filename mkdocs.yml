@@ -117,6 +117,7 @@ nav:
       - "Overlay": labs/overlay.md
       - "Table Join Slides": slides/table-join.md
       - "Projection Slides": slides/projection.md
+      - "Spatial Join Slides": slides/spatial-join.md
   - GIS Concepts:
       - Overview: concepts/index.md
       - "Vector and Raster Data": concepts/vector-raster.md
