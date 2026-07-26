@@ -60,7 +60,7 @@
 <div class="callout"><b>Note:</b> This is a nationwide file. You will filter it to Nebraska only in Part 1 of the walkthrough.</div>
 <h3>Dataset 2 - NE_County_Health.csv</h3>
 <p>Download the file below and save it to your project folder. Do not open and re-save it in Excel - Excel silently changes field types and will break the join. The CSV contains 93 rows (one per Nebraska county) with columns: GEOID, County, Population, Pct_Rural, PrimCare_Rate, Pct_Uninsured, Premature_Deaths, Median_Income.</p>
-<p><a class="md-button" href="NE_County_Health.csv">Download NE_County_Health.csv</a></p>
+<p><a class="md-button" href="../NE_County_Health.csv">Download NE_County_Health.csv</a></p>
 <p class="ref-caption">Source: U.S. Census Bureau population estimates and CDC/HRSA county-level health indicators (illustrative). This file has been extracted and restructured by the instructor specifically for this lab — it is not the original, unmodified government dataset.</p>
 <div class="callout"><b>Key concept:</b> The join uses county name (NAME &rarr; County), not FIPS code. ArcGIS Pro reads all-digit CSV columns as integers, while the shapefile stores GEOID as text - "31055" &ne; 31055 in a join. County names are unambiguously text in both datasets and always match.</div>
 </div>
