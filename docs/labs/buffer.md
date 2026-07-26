@@ -186,6 +186,6 @@ result: "BUF2026"
 </script>
 
 <div class="lab-nav">
-<span class="lab-nav-prev"><a href="../table-join/">Table Join</a></span>
+<span class="lab-nav-prev"><a href="../spatial-join/">Spatial Join</a></span>
 <span class="lab-nav-next"><a href="../surface-analysis/">Surface Analysis</a></span>
 </div>

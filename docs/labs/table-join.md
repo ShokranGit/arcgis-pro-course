@@ -190,5 +190,5 @@ result: "TBJ2026"
 
 <div class="lab-nav">
 <span class="lab-nav-prev"><a href="../select-by-location/">Select by Location</a></span>
-<span class="lab-nav-next"><a href="../buffer/">Buffer</a></span>
+<span class="lab-nav-next"><a href="../spatial-join/">Spatial Join</a></span>
 </div>
