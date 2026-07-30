@@ -35,7 +35,7 @@ Course overview, software setup, GIS/GISc applications, map types, ArcGIS interf
 <span class="tag">Module</span>
 
 ### Tabular Data and Mapping
-Attribute tables, CSV table creation, field editing and calculation, cartographic principles, map classification, layout design, and data selection.
+Attribute tables, CSV table management and import, field editing and calculation, cartographic principles, map classification, layout design, and data selection.
 </div>
 
 <div class="course-card" markdown>
