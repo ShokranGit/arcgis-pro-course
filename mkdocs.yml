@@ -106,6 +106,7 @@ nav:
       - "Intro to GIS — Spring 2027 (Hunter College)": courses/hunter-intro-gis-spring2027.md
   - Labs:
       - Overview: labs/index.md
+      - "Attribute Table and Field": labs/attribute-table-and-field.md
       - "Select by Attributes": labs/select-by-attributes.md
       - "Select by Location": labs/select-by-location.md
       - "Table Join": labs/table-join.md
