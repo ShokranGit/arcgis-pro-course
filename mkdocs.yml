@@ -127,6 +127,8 @@ nav:
       - "Geoprocessing Tools Slides": slides/geoprocessing-tools.md
       - "Raster Data Analysis Slides": slides/raster-data-analysis.md
       - "ArcGIS Pro UI Tour Slides": slides/arcgis-pro-ui-tour.md
+      - "Vector vs Raster Data Slides": slides/vector-vs-raster-data.md
+      - "File Types, Management, and Troubleshooting Slides": slides/file-types-management-troubleshooting.md
   - GIS Concepts:
       - Overview: concepts/index.md
       - "Vector and Raster Data": concepts/vector-raster.md
