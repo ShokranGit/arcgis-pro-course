@@ -198,6 +198,6 @@ result: "SBA2026"
 </script>
 
 <div class="lab-nav">
-<span class="lab-nav-prev"><a href="../attribute-table-and-field/">Attribute Table and Field</a></span>
+<span class="lab-nav-prev"><a href="../data-classification-and-layout-design/">Cartographic Principles; Map Classification; Map Elements, Layout, and Design</a></span>
 <span class="lab-nav-next"><a href="../select-by-location/">Select by Location</a></span>
 </div>
