@@ -107,6 +107,7 @@ nav:
   - Labs:
       - Overview: labs/index.md
       - "Attribute Table and Field": labs/attribute-table-and-field.md
+      - "Cartographic Principles; Map Classification; Map Elements, Layout, and Design": labs/data-classification-and-layout-design.md
       - "Select by Attributes": labs/select-by-attributes.md
       - "Select by Location": labs/select-by-location.md
       - "Table Join": labs/table-join.md
