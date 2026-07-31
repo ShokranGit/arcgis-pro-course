@@ -285,5 +285,5 @@ result: "ATF2026"
 
 <div class="lab-nav">
 <span class="lab-nav-prev"></span>
-<span class="lab-nav-next"><a href="../select-by-attributes/">Select by Attributes</a></span>
+<span class="lab-nav-next"><a href="../data-classification-and-layout-design/">Cartographic Principles; Map Classification; Map Elements, Layout, and Design</a></span>
 </div>
