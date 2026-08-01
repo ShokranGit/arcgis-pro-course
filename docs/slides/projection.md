@@ -7,9 +7,4 @@ height="650px"
 frameborder="0">
 </iframe>
 
-<div class="gif-figure" style="text-align:center;margin:1.5rem 0;">
-<img src="../earth-rotating.gif" alt="Rotating Earth" style="max-width:380px;width:100%;border-radius:8px;">
-<p style="margin-top:.4rem;font-size:.85rem;font-style:italic;">Slide 5 &mdash; &ldquo;How we picture it&rdquo;. The embedded PowerPoint viewer renders animated GIFs as a still frame, so the rotating globe is played here.</p>
-</div>
-
 [Download Projection slides](ArcGIS_Projection_Systems.pptx){ .md-button }
