@@ -206,12 +206,40 @@
 <li>Class 4: 3.306 - 3.949</li>
 <li>Class 5 (highest risk): 3.949 - 4.650</li>
 </ul>
-<div class="callout"><b>Note:</b> The Fire Risk Index is a weighted sum of three inputs scored 1-5 each, so its theoretical range is 1.0 (all three inputs at minimum) to 5.0 (all three at maximum). A verified real run landing close to that 1-4.65 range, rather than something wildly outside it (e.g., negative numbers, or a max far above 5), is itself a good sanity check that your weights and expressions are correct.</div>
+<div class="callout"><b>Note:</b> The Fire Risk Index is a weighted sum of three inputs, so its range runs from 1.0 (all three inputs at minimum) up to 4.65 (all three at maximum) - not 5.0, because Slope_Reclass is scored 1-4 while the other two inputs are scored 1-5. A verified real run landing inside that 1-4.65 range, rather than something wildly outside it (e.g., negative numbers, or a max far above 5), is itself a good sanity check that your weights and expressions are correct.</div>
+<h3>Reference Figures - Input Rasters</h3>
+<div class="ref-figure">
+<img src="../map-algebra-inputs-slope.png" alt="Slope_Reclass_Zion displayed in ArcGIS Pro">
+<p class="ref-caption">Slope_Reclass_Zion.tif, the reclassified slope input carried over from the Surface Analysis lab (1 = gentlest, 4 = steepest).</p>
+</div>
+<div class="callout"><b>What you're looking at:</b> red and yellow trace the canyon walls and side drainages where slope is steepest, while grey and blue sit on the flatter benches and mesa tops. This is the input carrying the 0.35 weight in Part 4, and the only one scored 1-4 rather than 1-5.</div>
+<div class="ref-figure">
+<img src="../map-algebra-inputs-aspect.png" alt="Aspect_Zion displayed in ArcGIS Pro with a black-to-white stretch">
+<p class="ref-caption">Aspect_Zion.tif before reclassification, stretched from 0 to 360 degrees.</p>
+</div>
+<div class="callout"><b>What you're looking at:</b> compass direction, not risk. Dark cells face the low end of the 0-360 range and bright cells the high end, which is exactly why raw aspect is unusable as a risk score and has to be passed through Con() in Part 2.</div>
+<h3>Reference Figures - Intermediate Outputs</h3>
+<div class="ref-figure">
+<img src="../map-algebra-southfacing.png" alt="SouthFacingRisk output displayed in ArcGIS Pro">
+<p class="ref-caption">SouthFacingRisk, the Part 2 output: 5 (red) for slopes facing 112.5-247.5 degrees, 1 (grey) everywhere else.</p>
+</div>
+<div class="callout"><b>What you're looking at:</b> a striped pattern following the ridges and drainages, because aspect flips from one side of a ridge to the other. If your output is a solid block of a single value, your Con() thresholds are reversed or outside the data's actual range.</div>
+<div class="ref-figure">
+<img src="../map-algebra-fuelload.png" alt="FuelLoad output displayed in ArcGIS Pro">
+<p class="ref-caption">FuelLoad, the Part 3 output: 5 (red) for the three forest classes, 3 (green) for shrub, grassland and pasture, 1 (grey) for everything else.</p>
+</div>
+<div class="callout"><b>What you're looking at:</b> red concentrates on the higher plateau rims where evergreen forest grows, green fills the shrub-covered canyon floor and lower benches. Very little grey appears, which tells you nearly every cell matched one of the two Con() conditions rather than falling through to the else value.</div>
+<h3>Reference Figures - Final Outputs</h3>
 <div class="ref-figure">
 <img src="../map-algebra-firerisk.png" alt="Final classified Fire Risk Index for Zion National Park">
 <p class="ref-caption">FireRisk, classified into 5 risk classes from green (lowest) to orange (highest).</p>
 </div>
 <div class="callout"><b>What you're looking at:</b> the two highest classes (orange) dominate most of the park's rugged interior, consistent with steep, south-facing, heavily-forested terrain scoring high on all three inputs at once. The green patches are lower-risk pockets, typically flatter ground, non-south-facing slopes, or lighter fuel load, and are worth spot-checking against your Slope_Reclass and Aspect layers individually if you want to confirm which factor is driving a given pixel's score.</div>
+<div class="ref-figure">
+<img src="../map-algebra-extremerisk.png" alt="ExtremeFireRisk output displayed in ArcGIS Pro">
+<p class="ref-caption">ExtremeFireRisk, the Part 5 output: 1 (red) where the Fire Risk Index reached 4.0 or above, 0 (grey) everywhere else.</p>
+</div>
+<div class="callout"><b>What you're looking at:</b> a sparse scatter rather than large blocks. Only a small fraction of the park clears the 4.0 threshold, since a cell has to score high on slope, aspect and fuel at the same time. If your version flags most of the park, check that your weights sum to 1.0.</div>
 </div>
 </div>
 <footer>SouthFacingRisk / FuelLoad / FireRisk / ExtremeFireRisk</footer>
