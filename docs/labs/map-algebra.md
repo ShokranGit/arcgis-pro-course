@@ -209,6 +209,11 @@
 <div class="callout"><b>Note:</b> The Fire Risk Index is a weighted sum of three inputs, so its range runs from 1.0 (all three inputs at minimum) up to 4.65 (all three at maximum) - not 5.0, because Slope_Reclass is scored 1-4 while the other two inputs are scored 1-5. A verified real run landing inside that 1-4.65 range, rather than something wildly outside it (e.g., negative numbers, or a max far above 5), is itself a good sanity check that your weights and expressions are correct.</div>
 <h3>Reference Figures - Input Rasters</h3>
 <div class="ref-figure">
+<img src="../map-algebra-inputs-nlcd.png" alt="NLCD_Zion land cover displayed in ArcGIS Pro">
+<p class="ref-caption">NLCD_Zion.tif, the raw land cover input clipped to the study area. Dark green is forest, tan is shrub/scrub.</p>
+</div>
+<div class="callout"><b>What you're looking at:</b> forest holds the higher, wetter plateau rims while shrub and scrub cover the canyon floor and the lower benches. Compare this against your FuelLoad output - the boundary between the two colors here is exactly the boundary Con() draws between codes 41/42/43 and code 52.</div>
+<div class="ref-figure">
 <img src="../map-algebra-inputs-slope.png" alt="Slope_Reclass_Zion displayed in ArcGIS Pro">
 <p class="ref-caption">Slope_Reclass_Zion.tif, the reclassified slope input carried over from the Surface Analysis lab (1 = gentlest, 4 = steepest).</p>
 </div>
