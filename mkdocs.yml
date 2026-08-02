@@ -133,6 +133,7 @@ nav:
       - "File Types, Management, and Troubleshooting Slides": slides/file-types-management-troubleshooting.md
       - "The Power of Maps & Map Types Slides": slides/power-of-maps-map-types.md
       - "Symbology & Map Classification Slides": slides/symbology-map-classification.md
+      - "Cartographic Principles Slides": slides/cartographic-principles.md
   - GIS Concepts:
       - Overview: concepts/index.md
       - "Vector and Raster Data": concepts/vector-raster.md
