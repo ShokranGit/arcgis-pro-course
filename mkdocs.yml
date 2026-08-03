@@ -135,6 +135,7 @@ nav:
       - "Symbology & Map Classification Slides": slides/symbology-map-classification.md
       - "Cartographic Principles Slides": slides/cartographic-principles.md
       - "Intro to Geospatial Programming Slides": slides/geospatial-programming-intro.md
+      - "Project, Map, Geodatabase, Feature Class, Shapefile, and Layer Creation Slides": slides/project-map-geodatabase-feature-class-shapefile-layer.md
   - GIS Concepts:
       - Overview: concepts/index.md
       - "Vector and Raster Data": concepts/vector-raster.md
