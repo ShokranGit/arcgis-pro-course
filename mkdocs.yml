@@ -134,6 +134,7 @@ nav:
       - "The Power of Maps & Map Types Slides": slides/power-of-maps-map-types.md
       - "Symbology & Map Classification Slides": slides/symbology-map-classification.md
       - "Cartographic Principles Slides": slides/cartographic-principles.md
+      - "Intro to Geospatial Programming Slides": slides/geospatial-programming-intro.md
   - GIS Concepts:
       - Overview: concepts/index.md
       - "Vector and Raster Data": concepts/vector-raster.md
