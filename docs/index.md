@@ -109,5 +109,33 @@ Fix common ArcGIS Pro issues with paths, projections, layers, tables, and export
 
 </div>
 
+## About
+
+**A free, open introduction to GIS — taught through ArcGIS Pro.**
+
+This site is a beginner-friendly introduction to Geographic Information Systems, built around ArcGIS Pro. It is made for graduate students at the CUNY Graduate Center and for students across every CUNY campus in New York City — and it is open to anyone who wants to learn.
+
+Everything here is free. No paywall, no login, no cost: the lessons, labs, slides, and datasets are published as an open educational resource, so access to GIS training does not depend on a budget.
+
+<div class="card-grid" markdown>
+
+<div class="course-card" markdown>
+<span class="tag">Who made it</span>
+
+### Shokran Rahiminezhad
+PhD candidate in the Department of Environmental Sciences at the CUNY Graduate Center, and adjunct lecturer at Hunter College and Lehman College, where he teaches Geographic Information Systems.
+</div>
+
+<div class="course-card" markdown>
+<span class="tag">Contact</span>
+
+### Get in touch
+Questions, corrections, or ideas for new material are welcome.
+
+[srahiminezhadlotfaba@gradcenter.cuny.edu](mailto:srahiminezhadlotfaba@gradcenter.cuny.edu)
+</div>
+
+</div>
+
 !!! tip "How to use this site"
     Keep this site open during labs. Use the search bar when you need to find a topic quickly.
