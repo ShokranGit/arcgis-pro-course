@@ -12,6 +12,13 @@ A free, open introduction to Geographic Information Systems, taught through ArcG
 
 </div>
 
+<!-- THIS WEEK: edit the two lines below each week during term. Between terms, replace with the next start date. -->
+!!! info "Before term starts"
+
+    **Principles of GISc** at Lehman College begins **September 2, 2026**: course overview and software installation.
+    [See the full schedule](courses/lehman-gisc-fall2026.md)
+<!-- /THIS WEEK -->
+
 ## Find your course
 
 <div class="card-grid" markdown>
@@ -20,7 +27,7 @@ A free, open introduction to Geographic Information Systems, taught through ArcG
 <span class="tag">Lehman College</span>
 
 ### [Principles of GISc](courses/lehman-gisc-fall2026.md)
-Fall 2026. Classes begin September 16, 2026. Schedule, topics, slides, and readings week by week.
+Fall 2026. Classes begin September 2, 2026. Schedule, topics, slides, and readings week by week.
 </div>
 
 <div class="course-card" markdown>
