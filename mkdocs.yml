@@ -13,15 +13,17 @@ theme:
   logo: assets/images/logo-placeholder.svg
   favicon: assets/images/logo-placeholder.svg
   palette:
-    - scheme: default
-      primary: green
-      accent: blue
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: grey
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-    - scheme: slate
-      primary: green
-      accent: blue
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: grey
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
