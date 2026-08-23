@@ -75,14 +75,6 @@ Where to look for data, organized from the most local scale to the most global. 
 - ArcGIS Pro tool reference
 - Esri training materials
 
-## Data sources
-
-- NYC Open Data
-- U.S. Census Bureau
-- Natural Earth
-- USGS
-- FEMA flood maps
-
 ## Cartography and GIS concepts
 
 - Map design principles
