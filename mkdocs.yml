@@ -85,7 +85,6 @@ copyright: "Course materials for teaching and learning ArcGIS Pro."
 
 nav:
   - Home: index.md
-  - Start Here: start-here.md
   - Lessons:
       - Overview: lessons/index.md
       - "00 · Introduction to GIS": lessons/00-introduction-to-gis.md
@@ -139,12 +138,6 @@ nav:
       - "Tabular Data Management Slides": slides/tabular-data-management.md
       - "Future of GISc Slides": slides/future-of-gis.md
       - "Data Management Slides": slides/data-management.md
-  - GIS Concepts:
-      - Overview: concepts/index.md
-      - "Vector and Raster Data": concepts/vector-raster.md
-      - "Coordinate Systems": concepts/coordinate-systems.md
-      - "Attribute Tables": concepts/attribute-tables.md
   - Data: data.md
-  - Troubleshooting: troubleshooting.md
   - Resources: resources.md
   - About: about.md

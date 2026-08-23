@@ -16,11 +16,9 @@ A MkDocs Material starter site for an ArcGIS Pro course.
 Most course content is in Markdown files inside the `docs/` folder.
 
 - Homepage: `docs/index.md`
-- Start page: `docs/start-here.md`
 - Lessons: `docs/lessons/`
 - Labs: `docs/labs/`
 - Data page: `docs/data.md`
-- Troubleshooting page: `docs/troubleshooting.md`
 - Resources page: `docs/resources.md`
 
 Site settings and navigation are in `mkdocs.yml`.
