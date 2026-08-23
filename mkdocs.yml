@@ -42,6 +42,10 @@ theme:
     - content.action.edit
     - content.tabs.link
 
+# Parked: kept in the repo, not published. Remove the entry to bring it back.
+exclude_docs: |
+  labs/index.md
+
 plugins:
   - search
 
@@ -103,40 +107,5 @@ nav:
   - Courses:
       - "Principles of GISc — Fall 2026 (Lehman College)": courses/lehman-gisc-fall2026.md
       - "Intro to GIS — Spring 2027 (Hunter College)": courses/hunter-intro-gis-spring2027.md
-  - Labs:
-      - Overview: labs/index.md
-      - "Attribute Table and Field": labs/attribute-table-and-field.md
-      - "Cartographic Principles; Map Classification; Map Elements, Layout, and Design": labs/data-classification-and-layout-design.md
-      - "Select by Attributes": labs/select-by-attributes.md
-      - "Select by Location": labs/select-by-location.md
-      - "Table Join": labs/table-join.md
-      - "Spatial Join": labs/spatial-join.md
-      - "Buffer": labs/buffer.md
-      - "Surface Analysis": labs/surface-analysis.md
-      - "Map Algebra": labs/map-algebra.md
-      - "Suitability Modeling": labs/suitability-modeling.md
-      - "Clip": labs/clip.md
-      - "Dissolve": labs/dissolve.md
-      - "Overlay": labs/overlay.md
-      - "Intro to Geospatial Programming": labs/intro-to-geospatial-programming.md
-      - "Table Join Slides": slides/table-join.md
-      - "Projection Slides": slides/projection.md
-      - "Spatial Join Slides": slides/spatial-join.md
-      - "Politics and Ethics of Mapping Slides": slides/politics-ethics-of-mapping.md
-      - "Select by Attributes Slides": slides/select-by-attributes.md
-      - "Select by Location Slides": slides/select-by-location.md
-      - "Geoprocessing Tools Slides": slides/geoprocessing-tools.md
-      - "Raster Data Analysis Slides": slides/raster-data-analysis.md
-      - "ArcGIS Pro UI Tour Slides": slides/arcgis-pro-ui-tour.md
-      - "Vector vs Raster Data Slides": slides/vector-vs-raster-data.md
-      - "File Types, Management, and Troubleshooting Slides": slides/file-types-management-troubleshooting.md
-      - "The Power of Maps & Map Types Slides": slides/power-of-maps-map-types.md
-      - "Symbology & Map Classification Slides": slides/symbology-map-classification.md
-      - "Cartographic Principles Slides": slides/cartographic-principles.md
-      - "Intro to Geospatial Programming Slides": slides/geospatial-programming-intro.md
-      - "Project, Map, Geodatabase, Feature Class, Shapefile, and Layer Creation Slides": slides/project-map-geodatabase-feature-class-shapefile-layer.md
-      - "Tabular Data Management Slides": slides/tabular-data-management.md
-      - "Future of GISc Slides": slides/future-of-gis.md
-      - "Data Management Slides": slides/data-management.md
   - Resources: resources.md
   - About: about.md
