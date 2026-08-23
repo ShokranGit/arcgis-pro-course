@@ -1,6 +1,6 @@
 site_name: ArcGIS Pro Course
 site_description: "A practical learning hub for ArcGIS Pro tutorials, labs, datasets, and GIS concepts."
-site_author: "Parisa Setayesh"
+site_author: "Shokran Rahiminezhad"
 site_url: "https://ShokranGit.github.io/arcgis-pro-course/"
 
 repo_name: "ShokranGit/arcgis-pro-course"
@@ -147,3 +147,4 @@ nav:
   - Data: data.md
   - Troubleshooting: troubleshooting.md
   - Resources: resources.md
+  - About: "https://ShokranGit.github.io/arcgis-pro-course/#about"
