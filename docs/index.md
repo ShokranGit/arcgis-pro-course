@@ -11,8 +11,7 @@ title: Home
 A practical learning hub for building GIS skills with ArcGIS Pro. This site organizes tutorials, labs, datasets, troubleshooting notes, and core GIS concepts so students can move from software basics to independent spatial analysis.
 
 <div class="button-row" markdown>
-[Start Here](start-here.md){ .primary }
-[Browse Lessons](lessons/index.md){ .secondary }
+[Browse Lessons](lessons/index.md){ .primary }
 [Go to Labs](labs/index.md){ .secondary }
 </div>
 
@@ -66,13 +65,6 @@ Map misuse, ethical issues in GISc, and the future of GIS.
 <div class="card-grid" markdown>
 
 <div class="course-card" markdown>
-<span class="tag">Setup</span>
-
-### [Start Here](start-here.md)
-Prepare your folders, understand file paths, and get ready to work in ArcGIS Pro.
-</div>
-
-<div class="course-card" markdown>
 <span class="tag">Lessons</span>
 
 ### [Lessons](lessons/index.md)
@@ -98,13 +90,6 @@ Review key GIS ideas such as vector/raster data, coordinate systems, and attribu
 
 ### [Data](data.md)
 Access course datasets and data notes.
-</div>
-
-<div class="course-card" markdown>
-<span class="tag">Help</span>
-
-### [Troubleshooting](troubleshooting.md)
-Fix common ArcGIS Pro issues with paths, projections, layers, tables, and exports.
 </div>
 
 </div>
