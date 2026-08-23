@@ -138,6 +138,5 @@ nav:
       - "Tabular Data Management Slides": slides/tabular-data-management.md
       - "Future of GISc Slides": slides/future-of-gis.md
       - "Data Management Slides": slides/data-management.md
-  - Data: data.md
   - Resources: resources.md
   - About: about.md

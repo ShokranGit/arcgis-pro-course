@@ -18,7 +18,6 @@ Most course content is in Markdown files inside the `docs/` folder.
 - Homepage: `docs/index.md`
 - Lessons: `docs/lessons/`
 - Labs: `docs/labs/`
-- Data page: `docs/data.md`
 - Resources page: `docs/resources.md`
 
 Site settings and navigation are in `mkdocs.yml`.
