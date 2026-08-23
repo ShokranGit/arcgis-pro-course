@@ -51,7 +51,6 @@ Where to look for data, organized from the most local scale to the most global. 
 | Regional | Health | [County Health Rankings and Roadmaps](https://www.countyhealthrankings.org) |
 | Regional | Immigration / migration | [Census State-to-State Migration Flows](https://www.census.gov/data/tables/time-series/demo/geographic-mobility/state-to-state-migration.html) |
 | Regional | Administrative boundaries | [Census TIGER/Line Counties](https://www.census.gov/geo/tiger/TIGER2022/COUNTY/) |
-| Regional | Health / demographics | NE County Health Data (course CSV) |
 | National | Disasters / hazards | [FEMA National Risk Index](https://hazards.fema.gov/nri/) |
 | National | Crime | [FBI Crime Data Explorer](https://cde.ucr.cjis.gov) |
 | National | Health | [CDC Wonder and CDC Open Data](https://wonder.cdc.gov) |
@@ -68,26 +67,3 @@ Where to look for data, organized from the most local scale to the most global. 
 | World | Satellite / imagery | [NASA Earthdata](https://www.earthdata.nasa.gov) |
 | World | Climate / environment | [Global Forest Watch](https://www.globalforestwatch.org) |
 | World | Animal | [eBird (Cornell Lab of Ornithology)](https://ebird.org/home) |
-
-## ArcGIS Pro references
-
-- ArcGIS Pro documentation
-- ArcGIS Pro tool reference
-- Esri training materials
-
-## Cartography and GIS concepts
-
-- Map design principles
-- Coordinate systems and projections
-- Spatial analysis methods
-- Data ethics and responsible mapping
-
-## Citation notes
-
-When using external data, document:
-
-- Dataset title
-- Producing organization
-- Download URL
-- Date accessed
-- License or use restrictions
