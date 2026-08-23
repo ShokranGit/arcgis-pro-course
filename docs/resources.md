@@ -1,6 +1,6 @@
 # Resources
 
-Use this page for external references, course documents, data portals, and additional GIS learning materials.
+The core course readings, and where to find data for labs and your own projects.
 
 ## Reading Materials
 
