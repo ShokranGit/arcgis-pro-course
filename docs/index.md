@@ -12,7 +12,6 @@ A practical learning hub for building GIS skills with ArcGIS Pro. This site orga
 
 <div class="button-row" markdown>
 [Browse Lessons](lessons/index.md){ .primary }
-[Go to Labs](labs/index.md){ .secondary }
 </div>
 
 </div>
@@ -69,13 +68,6 @@ Map misuse, ethical issues in GISc, and the future of GIS.
 
 ### [Lessons](lessons/index.md)
 Review core concepts and software workflows.
-</div>
-
-<div class="course-card" markdown>
-<span class="tag">Labs</span>
-
-### [Labs](labs/index.md)
-Follow the lab sequence and track topics, slides, and tutorials.
 </div>
 
 <div class="course-card" markdown>
