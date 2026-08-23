@@ -85,13 +85,6 @@ Follow the lab sequence and track topics, slides, and tutorials.
 Review key GIS ideas such as vector/raster data, coordinate systems, and attribute tables.
 </div>
 
-<div class="course-card" markdown>
-<span class="tag">Files</span>
-
-### [Data](data.md)
-Access course datasets and data notes.
-</div>
-
 </div>
 
 !!! tip "How to use this site"
