@@ -8,7 +8,7 @@ title: Home
 
 # ArcGIS Pro Course
 
-A practical learning hub for building GIS skills with ArcGIS Pro. This site organizes tutorials, labs, datasets, troubleshooting notes, and core GIS concepts so students can move from software basics to independent spatial analysis.
+A practical learning hub for building GIS skills with ArcGIS Pro. This site organizes tutorials, labs, datasets, and core GIS concepts so students can move from software basics to independent spatial analysis.
 
 <div class="button-row" markdown>
 [Browse Lessons](lessons/index.md){ .primary }
