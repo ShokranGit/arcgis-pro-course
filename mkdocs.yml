@@ -100,6 +100,7 @@ nav:
       - "03 · Selection by Attribute": lessons/03-selection-by-attribute.md
       - "03b · Select by Location": lessons/03b-selection-by-location.md
       - "03c · Tabular Data Management": lessons/03c-tabular-data-management.md
+      - "03d · Table Joins": lessons/03d-table-joins.md
       - "04 · Symbology and Map Design": lessons/04-symbology-map-design.md
       - "05 · Geoprocessing": lessons/05-geoprocessing.md
       - "06 · Raster Analysis": lessons/06-raster-analysis.md
