@@ -9,6 +9,7 @@ edit_uri: "edit/main/docs/"
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   logo: assets/images/logo-placeholder.svg
   favicon: assets/images/logo-placeholder.svg
@@ -53,6 +54,16 @@ exclude_docs: |
   labs/lab-02-attribute-selection.md
 
 plugins:
+  # Old URLs from before the site was reorganized. Without these, a saved
+  # bookmark or a shared link to a removed page lands on the 404 page.
+  - redirects:
+      redirect_maps:
+        start-here/index.md: lessons/index.md
+        troubleshooting/index.md: resources.md
+        gis-concepts/index.md: lessons/index.md
+        concepts/index.md: lessons/index.md
+        data/index.md: resources.md
+        labs/index.md: lessons/index.md
   - search
 
 markdown_extensions:
