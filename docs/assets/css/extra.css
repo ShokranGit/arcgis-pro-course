@@ -41,14 +41,14 @@
   --mod-tint:           0.13;
   --mod-tint-hover:     0.30;
 
-  /* Geographic scale ramp for the Data Resources table. Scale is ordinal,
-     local to global, so this is a sequential ramp rather than five
-     unrelated hues like the module colours. */
-  --scale-nyc:       #0f5f6b;
-  --scale-urban:     #1c6a8c;
-  --scale-regional:  #2f5f9e;
-  --scale-national:  #4a4f96;
-  --scale-world:     #64478c;
+  /* Geographic scale bands for the Data Resources table. Five clearly
+     separate hues, ordered warm to cool so the sequence still reads
+     local to global without any two bands looking alike. */
+  --scale-nyc:       #9c4a24;
+  --scale-urban:     #a07214;
+  --scale-regional:  #3f6b30;
+  --scale-national:  #10646e;
+  --scale-world:     #3a4a91;
 
   /* Reading source colours: same five families as before, retuned. */
   --src-essentials:   #0d6f7c;
@@ -81,11 +81,11 @@
   --mod-tint:           0.18;
   --mod-tint-hover:     0.36;
 
-  --scale-nyc:       #5cc0cd;
-  --scale-urban:     #79b6d4;
-  --scale-regional:  #8fb0e0;
-  --scale-national:  #a3a5e2;
-  --scale-world:     #b795d8;
+  --scale-nyc:       #e29068;
+  --scale-urban:     #dbb055;
+  --scale-regional:  #8fc276;
+  --scale-national:  #5fbfcb;
+  --scale-world:     #93a6e6;
 
   --src-essentials:   #5cc0cd;
   --src-cartography:  #6fc294;
