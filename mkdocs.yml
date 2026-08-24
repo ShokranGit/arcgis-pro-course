@@ -47,6 +47,10 @@ theme:
 # Parked: kept in the repo, not published. Remove the entry to bring it back.
 exclude_docs: |
   labs/index.md
+  concepts/index.md
+  labs/lab-template.md
+  labs/lab-01-project-setup.md
+  labs/lab-02-attribute-selection.md
 
 plugins:
   - search
