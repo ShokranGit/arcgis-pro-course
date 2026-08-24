@@ -1,0 +1,17 @@
+{% extends "main.html" %}
+
+{% block content %}
+<h1>That page has moved</h1>
+
+<p>The address you followed is not part of this site any more. The course was reorganized and a few older pages were folded into the sections below. Nothing has been lost, so pick whichever is closest to what you were looking for.</p>
+
+  <ul>
+    <li><a href="{{ base_url }}">Home</a> &mdash; where to start, and which course you are in</li>
+    <li><a href="{{ base_url }}lessons/">Lessons</a> &mdash; every topic in the course, with its slides and labs</li>
+  <li><a href="{{ base_url }}courses/lehman-gisc-fall2026/">Principles of GISc, Lehman</a> &mdash; schedule and syllabus</li>
+  <li><a href="{{ base_url }}courses/hunter-intro-gis-spring2027/">Intro to GIS, Hunter</a> &mdash; schedule and syllabus</li>
+  <li><a href="{{ base_url }}resources/">Resources</a> &mdash; readings and where to find data</li>
+</ul>
+
+<p>If you arrived from a bookmark or a saved link, update it to one of the pages above and it will keep working.</p>
+  {% endblock %}
