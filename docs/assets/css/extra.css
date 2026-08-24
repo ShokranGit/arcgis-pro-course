@@ -41,6 +41,15 @@
   --mod-tint:           0.13;
   --mod-tint-hover:     0.30;
 
+  /* Geographic scale ramp for the Data Resources table. Scale is ordinal,
+     local to global, so this is a sequential ramp rather than five
+     unrelated hues like the module colours. */
+  --scale-nyc:       #0f5f6b;
+  --scale-urban:     #1c6a8c;
+  --scale-regional:  #2f5f9e;
+  --scale-national:  #4a4f96;
+  --scale-world:     #64478c;
+
   /* Reading source colours: same five families as before, retuned. */
   --src-essentials:   #0d6f7c;
   --src-cartography:  #1f6b45;
@@ -71,6 +80,12 @@
   --mod-ethics:         #e08a8a;
   --mod-tint:           0.18;
   --mod-tint-hover:     0.36;
+
+  --scale-nyc:       #5cc0cd;
+  --scale-urban:     #79b6d4;
+  --scale-regional:  #8fb0e0;
+  --scale-national:  #a3a5e2;
+  --scale-world:     #b795d8;
 
   --src-essentials:   #5cc0cd;
   --src-cartography:  #6fc294;
@@ -785,6 +800,99 @@ body:has(.topics-table) .md-sidebar--primary {
               transparent) !important;
 }
 
+/* ---------- Data Resources table ----------
+   Same machinery as the module tables: topics-table.js merges the Scale
+   column into one cell per band and tags each row scale-row-*. The band
+   reads three ways at once, exactly like a module: a rule down the left
+   edge, a tinted row group, and the scale name set vertically in its own
+   colour. The ramp runs local to global, so the colour carries the
+   ordering, not just the grouping. */
+
+.data-table table { table-layout: fixed !important; }
+.data-table table th,
+.data-table table td { min-width: 0 !important; }
+.data-table table th:nth-child(1),
+.data-table table td:nth-child(1) { width: calc(3.5% + 10mm) !important; }
+.data-table table th:nth-child(2),
+.data-table table td:nth-child(2) { width: 26% !important; }
+.data-table table th:nth-child(3),
+.data-table table td:nth-child(3) { width: 62% !important; }
+
+.data-table table td:has(.scale-badge) {
+  padding: 0.5rem 0.15rem !important;
+  text-align: center;
+  vertical-align: middle;
+}
+.data-table table th:first-child {
+  writing-mode: vertical-rl;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5rem 0.15rem !important;
+  font-size: 0.58rem;
+}
+
+.data-table .scale-badge {
+  display: inline-block;
+  writing-mode: vertical-rl;
+  width: auto !important;
+  white-space: nowrap;
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  font-family: var(--md-code-font-family);
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* The Category column is a quiet label, not content to read across.
+   Counted from the end: the merged Scale cell is absent on most rows, so
+   nth-child would slide onto the wrong column. */
+.data-table table td:nth-last-child(2) {
+  font-family: var(--md-code-font-family);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-3);
+}
+
+/* Row hue per scale band */
+.data-table tr.scale-row-nyc td       { --row-hue: var(--scale-nyc); }
+.data-table tr.scale-row-urban td     { --row-hue: var(--scale-urban); }
+.data-table tr.scale-row-regional td  { --row-hue: var(--scale-regional); }
+.data-table tr.scale-row-national td  { --row-hue: var(--scale-national); }
+.data-table tr.scale-row-world td     { --row-hue: var(--scale-world); }
+
+.data-table table tbody td {
+  background: color-mix(in srgb,
+              var(--row-hue, transparent) calc(var(--mod-tint) * 100%),
+              transparent) !important;
+}
+
+.data-table tr.scale-row-nyc .scale-badge       { color: var(--scale-nyc); }
+.data-table tr.scale-row-urban .scale-badge     { color: var(--scale-urban); }
+.data-table tr.scale-row-regional .scale-badge  { color: var(--scale-regional); }
+.data-table tr.scale-row-national .scale-badge  { color: var(--scale-national); }
+.data-table tr.scale-row-world .scale-badge     { color: var(--scale-world); }
+
+.data-table tr.scale-row-nyc td:has(.scale-badge)       { box-shadow: inset 4px 0 0 var(--scale-nyc); }
+.data-table tr.scale-row-urban td:has(.scale-badge)     { box-shadow: inset 4px 0 0 var(--scale-urban); }
+.data-table tr.scale-row-regional td:has(.scale-badge)  { box-shadow: inset 4px 0 0 var(--scale-regional); }
+.data-table tr.scale-row-national td:has(.scale-badge)  { box-shadow: inset 4px 0 0 var(--scale-national); }
+.data-table tr.scale-row-world td:has(.scale-badge)     { box-shadow: inset 4px 0 0 var(--scale-world); }
+
+.data-table table tbody tr:hover td {
+  background: color-mix(in srgb,
+              var(--row-hue, var(--ink)) calc(var(--mod-tint-hover) * 100%),
+              transparent) !important;
+}
+.data-table table tbody tr:hover td:has(.scale-badge) {
+  background: color-mix(in srgb,
+              var(--row-hue, transparent) calc(var(--mod-tint) * 100%),
+              transparent) !important;
+}
+
 /* Material's table wrappers set overflow: auto, which creates a scroll
    container and breaks the sticky header above. Our fixed-width columns
    already fit, so let these specific wrappers overflow visibly. */
@@ -792,6 +900,8 @@ body:has(.topics-table) .md-sidebar--primary {
 .topics-table .md-typeset__table,
 .schedule-table .md-typeset__scrollwrap,
 .schedule-table .md-typeset__table,
+.data-table .md-typeset__scrollwrap,
+.data-table .md-typeset__table,
 .grading-table .md-typeset__scrollwrap,
 .grading-table .md-typeset__table {
   overflow: visible !important;
