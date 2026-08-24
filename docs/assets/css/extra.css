@@ -893,6 +893,87 @@ body:has(.topics-table) .md-sidebar--primary {
               transparent) !important;
 }
 
+/* ---------- Reading Materials table ----------
+   Two codings at once, kept deliberately separate so neither reads as the
+   other. The row tint is the reading's OWN colour, the same one used on
+   every readings link across the lessons and schedule tables, so this
+   table doubles as the key to that system. Required vs recommended is
+   carried by a merged label band in plain ink, never by hue. */
+
+.reading-table table { table-layout: fixed !important; }
+.reading-table table th,
+.reading-table table td { min-width: 0 !important; }
+.reading-table table th:nth-child(1) { width: calc(3.5% + 12mm) !important; }
+.reading-table table th:nth-child(2) { width: 30% !important; }
+.reading-table table th:nth-child(3) { width: 58% !important; }
+
+.reading-table table td:has(.status-badge) {
+  padding: 0.5rem 0.15rem !important;
+  text-align: center;
+  vertical-align: middle;
+}
+.reading-table table th:first-child {
+  writing-mode: vertical-rl;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5rem 0.15rem !important;
+  font-size: 0.58rem;
+}
+
+.reading-table .status-badge {
+  display: inline-block;
+  writing-mode: vertical-rl;
+  width: auto !important;
+  white-space: nowrap;
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  font-family: var(--md-code-font-family);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.reading-table .status-required    { color: var(--ink); font-weight: 600; }
+.reading-table .status-recommended { color: var(--ink-3); font-weight: 500; }
+
+/* Status band rule: weight, not colour, carries the distinction. */
+.reading-table tr.status-row-required td:has(.status-badge)
+  { box-shadow: inset 4px 0 0 var(--ink); }
+.reading-table tr.status-row-recommended td:has(.status-badge)
+  { box-shadow: inset 2px 0 0 var(--line-strong); }
+
+/* Row tint from the reading's own source colour. */
+.reading-table tbody tr:has(a.src-essentials) td  { --row-hue: var(--src-essentials); }
+.reading-table tbody tr:has(a.src-cartography) td { --row-hue: var(--src-cartography); }
+.reading-table tbody tr:has(a.src-moderngis) td   { --row-hue: var(--src-moderngis); }
+.reading-table tbody tr:has(a.src-esri) td        { --row-hue: var(--src-esri); }
+.reading-table tbody tr:has(a.src-workbook) td    { --row-hue: var(--src-workbook); }
+
+.reading-table table tbody td {
+  background: color-mix(in srgb,
+              var(--row-hue, transparent) calc(var(--mod-tint) * 100%),
+              transparent) !important;
+  vertical-align: top;
+}
+
+/* The reading title carries the weight; the description stays quiet. */
+.reading-table table td:last-child {
+  font-size: 0.74rem;
+  color: var(--ink-2);
+}
+
+.reading-table table tbody tr:hover td {
+  background: color-mix(in srgb,
+              var(--row-hue, var(--ink)) calc(var(--mod-tint-hover) * 100%),
+              transparent) !important;
+}
+/* The status band is neutral by design, so it must not pick up the
+   deepened reading hue on hover. */
+.reading-table table tbody tr:hover td:has(.status-badge) {
+  background: color-mix(in srgb, var(--ink) 6%, transparent) !important;
+}
+
 /* Material's table wrappers set overflow: auto, which creates a scroll
    container and breaks the sticky header above. Our fixed-width columns
    already fit, so let these specific wrappers overflow visibly. */
@@ -900,6 +981,8 @@ body:has(.topics-table) .md-sidebar--primary {
 .topics-table .md-typeset__table,
 .schedule-table .md-typeset__scrollwrap,
 .schedule-table .md-typeset__table,
+.reading-table .md-typeset__scrollwrap,
+.reading-table .md-typeset__table,
 .data-table .md-typeset__scrollwrap,
 .data-table .md-typeset__table,
 .grading-table .md-typeset__scrollwrap,
