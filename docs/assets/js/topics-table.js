@@ -6,17 +6,18 @@
 // each row with a "module-row-*" class so extra.css can tint the whole
 // row group instead of drawing a per-row pill badge.
 (function () {
-  function moduleSlug(el) {
+  function groupSlug(el, prefix) {
     var found = null;
     el.classList.forEach(function (cls) {
-      if (cls.indexOf('module-') === 0 && cls !== 'module-badge') {
-        found = cls.replace('module-', '');
+      if (cls.indexOf(prefix + '-') === 0 && cls !== prefix + '-badge') {
+        found = cls.replace(prefix + '-', '');
       }
     });
     return found;
   }
 
- function mergeModuleColumn(table, colIndex) {
+ function mergeModuleColumn(table, colIndex, prefix) {
+   prefix = prefix || 'module';
    var selector = 'td:nth-child(' + colIndex + ')';
    var rows = Array.from(table.querySelectorAll('tbody tr'));
    var i = 0;
@@ -51,11 +52,11 @@
      }
    }
 
-   var badge = cell.querySelector('[class*="module-"]');
-     var slug = badge ? moduleSlug(badge) : null;
+   var badge = cell.querySelector('[class*="' + prefix + '-"]');
+     var slug = badge ? groupSlug(badge, prefix) : null;
      if (slug) {
        for (var m = i; m < j; m++) {
-         rows[m].classList.add('module-row-' + slug);
+         rows[m].classList.add(prefix + '-row-' + slug);
        }
      }
 
@@ -69,6 +70,10 @@
    });
    document.querySelectorAll('.schedule-table table').forEach(function (table) {
      mergeModuleColumn(table, 1);
+   });
+   // The Data Resources table groups by geographic scale, not module.
+   document.querySelectorAll('.data-table table').forEach(function (table) {
+     mergeModuleColumn(table, 1, 'scale');
    });
  }
 
