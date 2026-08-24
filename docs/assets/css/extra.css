@@ -38,7 +38,8 @@
   --mod-spatial:        #6d2a6d;
   --mod-geoprocessing:  #6b4a2e;
   --mod-ethics:         #8a2a2a;
-  --mod-tint:           0.055;
+  --mod-tint:           0.13;
+  --mod-tint-hover:     0.30;
 
   /* Reading source colours: same five families as before, retuned. */
   --src-essentials:   #0d6f7c;
@@ -68,7 +69,8 @@
   --mod-spatial:        #c489c4;
   --mod-geoprocessing:  #c2a081;
   --mod-ethics:         #e08a8a;
-  --mod-tint:           0.10;
+  --mod-tint:           0.18;
+  --mod-tint-hover:     0.36;
 
   --src-essentials:   #5cc0cd;
   --src-cartography:  #6fc294;
@@ -664,22 +666,27 @@ body {
   text-transform: uppercase;
 }
 
-/* Row-group tint */
+/* Row-group tint.
+   Each module row carries its hue as a variable, so the resting tint and
+   the hover tint are the same colour at two strengths. Hovering therefore
+   deepens the module colour instead of washing it out. */
 .topics-table tr.module-row-intro td,
-.schedule-table tr.module-row-intro td
-  { background: color-mix(in srgb, var(--mod-intro) calc(var(--mod-tint) * 100%), transparent) !important; }
+.schedule-table tr.module-row-intro td          { --row-hue: var(--mod-intro); }
 .topics-table tr.module-row-tabular td,
-.schedule-table tr.module-row-tabular td
-  { background: color-mix(in srgb, var(--mod-tabular) calc(var(--mod-tint) * 100%), transparent) !important; }
+.schedule-table tr.module-row-tabular td        { --row-hue: var(--mod-tabular); }
 .topics-table tr.module-row-spatial td,
-.schedule-table tr.module-row-spatial td
-  { background: color-mix(in srgb, var(--mod-spatial) calc(var(--mod-tint) * 100%), transparent) !important; }
+.schedule-table tr.module-row-spatial td        { --row-hue: var(--mod-spatial); }
 .topics-table tr.module-row-ethics td,
-.schedule-table tr.module-row-ethics td
-  { background: color-mix(in srgb, var(--mod-ethics) calc(var(--mod-tint) * 100%), transparent) !important; }
+.schedule-table tr.module-row-ethics td         { --row-hue: var(--mod-ethics); }
 .topics-table tr.module-row-geoprocessing td,
-.schedule-table tr.module-row-geoprocessing td
-  { background: color-mix(in srgb, var(--mod-geoprocessing) calc(var(--mod-tint) * 100%), transparent) !important; }
+.schedule-table tr.module-row-geoprocessing td  { --row-hue: var(--mod-geoprocessing); }
+
+.topics-table table tbody td,
+.schedule-table table tbody td {
+  background: color-mix(in srgb,
+              var(--row-hue, transparent) calc(var(--mod-tint) * 100%),
+              transparent) !important;
+}
 
 /* Vertical label colour */
 .topics-table tr.module-row-intro .module-badge,
@@ -698,15 +705,15 @@ body {
    group have no module cell at all. Target the cell that actually holds
    the badge, never td:first-child, or the rule lands on the Topics column. */
 .topics-table tr.module-row-intro td:has(.module-badge),
-.schedule-table tr.module-row-intro td:has(.module-badge) { box-shadow: inset 3px 0 0 var(--mod-intro); }
+.schedule-table tr.module-row-intro td:has(.module-badge) { box-shadow: inset 4px 0 0 var(--mod-intro); }
 .topics-table tr.module-row-tabular td:has(.module-badge),
-.schedule-table tr.module-row-tabular td:has(.module-badge) { box-shadow: inset 3px 0 0 var(--mod-tabular); }
+.schedule-table tr.module-row-tabular td:has(.module-badge) { box-shadow: inset 4px 0 0 var(--mod-tabular); }
 .topics-table tr.module-row-spatial td:has(.module-badge),
-.schedule-table tr.module-row-spatial td:has(.module-badge) { box-shadow: inset 3px 0 0 var(--mod-spatial); }
+.schedule-table tr.module-row-spatial td:has(.module-badge) { box-shadow: inset 4px 0 0 var(--mod-spatial); }
 .topics-table tr.module-row-ethics td:has(.module-badge),
-.schedule-table tr.module-row-ethics td:has(.module-badge) { box-shadow: inset 3px 0 0 var(--mod-ethics); }
+.schedule-table tr.module-row-ethics td:has(.module-badge) { box-shadow: inset 4px 0 0 var(--mod-ethics); }
 .topics-table tr.module-row-geoprocessing td:has(.module-badge),
-.schedule-table tr.module-row-geoprocessing td:has(.module-badge) { box-shadow: inset 3px 0 0 var(--mod-geoprocessing); }
+.schedule-table tr.module-row-geoprocessing td:has(.module-badge) { box-shadow: inset 4px 0 0 var(--mod-geoprocessing); }
 
 /* ---------- Assignments and Grading ---------- */
 .assign-table table { table-layout: fixed !important; }
@@ -756,18 +763,26 @@ body:has(.topics-table) .md-sidebar--primary {
   box-shadow: 0 1px 0 var(--line-strong);
 }
 
-/* Row hover: trace one row across every column without losing your
-   place. Kept deliberately neutral so it never reads as a module colour. */
+/* Row hover: deepen the row's own module colour so the whole row lights
+   up across every column. Rows with no module (grading table) fall back
+   to a neutral ink wash. */
 .topics-table table tbody tr:hover td,
-.schedule-table table tbody tr:hover td,
+.schedule-table table tbody tr:hover td {
+  background: color-mix(in srgb,
+              var(--row-hue, var(--ink)) calc(var(--mod-tint-hover) * 100%),
+              transparent) !important;
+}
 .grading-table table tbody tr:hover td {
-  background: var(--wash) !important;
+  background: color-mix(in srgb, var(--ink) 10%, transparent) !important;
 }
 
-/* Never let row hover wash out the module cell itself. */
+/* The merged module cell keeps its own tint on hover rather than the
+   deepened one, so the vertical label stays readable. */
 .topics-table table tbody tr:hover td:has(.module-badge),
 .schedule-table table tbody tr:hover td:has(.module-badge) {
-  background: transparent !important;
+  background: color-mix(in srgb,
+              var(--row-hue, transparent) calc(var(--mod-tint) * 100%),
+              transparent) !important;
 }
 
 /* Material's table wrappers set overflow: auto, which creates a scroll
