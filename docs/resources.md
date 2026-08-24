@@ -4,13 +4,19 @@ The core course readings, and where to find data for labs and your own projects.
 
 ## Reading Materials
 
-The five core course readings used throughout the labs and course tables:
+Five readings carry the whole course. One is the required text; the other four are there when you want a second explanation, a guided sequence, or a lab walkthrough. Each keeps its own colour, and that colour is what you are seeing whenever a reading is linked from the lessons and schedule tables.
 
-- [Essentials of Geographic Information Systems](https://open.umn.edu/opentextbooks/textbooks/67){: .src-essentials}
-- [Geographic Information Systems and Cartography](https://slcc.pressbooks.pub/maps/){: .src-cartography}
-- [Modern GIS Learning Modules](https://modern-gis-learngis.hub.arcgis.com/){: .src-moderngis}
-- [ArcGIS Pro Tutorial/Documentation](https://www.esri.com/en-us/arcgis/products/arcgis-pro/resources){: .src-esri}
-- [ArcGIS Pro Workbook](https://mlpp.pressbooks.pub/flexiblegisworkbookpro/){: .src-workbook}
+<div class="reading-table" markdown="1">
+
+| Status | Reading | What it is for |
+| --- | --- | --- |
+| <span class="status-badge status-required">Required</span> | [Essentials of Geographic Information Systems](https://open.umn.edu/opentextbooks/textbooks/67){: .src-essentials} | The conceptual backbone. What spatial data is, how it gets modeled, and why an analysis gives the answer it gives. Read this one for understanding rather than procedure. |
+| <span class="status-badge status-recommended">Recommended</span> | [Geographic Information Systems and Cartography](https://slcc.pressbooks.pub/maps/){: .src-cartography} | The widest coverage of the topics on the schedule, chapter by chapter. Most of the reading references in the course tables point here. |
+| <span class="status-badge status-recommended">Recommended</span> | [Modern GIS Learning Modules](https://modern-gis-learngis.hub.arcgis.com/){: .src-moderngis} | A guided module path rather than a book. Useful when you would rather follow a sequence than look up a chapter. |
+| <span class="status-badge status-recommended">Recommended</span> | [ArcGIS Pro Tutorial and Documentation](https://www.esri.com/en-us/arcgis/products/arcgis-pro/resources){: .src-esri} | The reference, not the reading. Go here for one specific tool, parameter, or error message. |
+| <span class="status-badge status-recommended">Recommended</span> | [ArcGIS Pro Workbook](https://mlpp.pressbooks.pub/flexiblegisworkbookpro/){: .src-workbook} | The step-by-step exercises the labs follow. The closest thing to sitting beside someone doing the workflow with you. |
+
+</div>
 
 ## Data Resources
 
