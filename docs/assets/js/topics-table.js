@@ -75,6 +75,10 @@
    document.querySelectorAll('.data-table table').forEach(function (table) {
      mergeModuleColumn(table, 1, 'scale');
    });
+   // The Reading Materials table groups by required vs recommended.
+   document.querySelectorAll('.reading-table table').forEach(function (table) {
+     mergeModuleColumn(table, 1, 'status');
+   });
  }
 
  if (document.readyState === 'loading') {

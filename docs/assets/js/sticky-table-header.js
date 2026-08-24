@@ -6,7 +6,7 @@
 // header row into its own small fixed-position table and swaps it in
 // once the real header scrolls out from under the site's top bar.
 (function () {
-    var SELECTOR = '.topics-table table, .schedule-table table, .grading-table table, .data-table table';
+    var SELECTOR = '.topics-table table, .schedule-table table, .grading-table table, .data-table table, .reading-table table';
     var trackers = [];
     var rafPending = false;
 
@@ -16,7 +16,7 @@
    }
 
    function wrapperClass(table) {
-         var wrapper = table.closest('.topics-table, .schedule-table, .grading-table, .data-table');
+         var wrapper = table.closest('.topics-table, .schedule-table, .grading-table, .data-table, .reading-table');
          return wrapper ? wrapper.className : '';
    }
 
